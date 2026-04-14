@@ -1,0 +1,264 @@
+Lesch, O'Reilly and Veum Regional Medical Center
+3420 Cedar Ln, Richmond, VA 23220
+CONSOLIDATED PATIENT RECORDS — CONFIDENTIAL
+Report Generated: 04/13/2026 06:41 PM
+Boundary Interval: 1 page(s) per patient block
+PATIENT 1 OF 6
+Name: Wilfredo VonRueden
+MRN: MRN-88045499
+DOB: 01/23/1981
+SSN: 933-53-0014
+Address: 6563 Beacon St, Baltimore, MD 21201
+Phone: (207) 870-6280
+Insurance: INS-2817250267
+Attending: Dr. Kelley Pfannerstill
+Admitted: 04/11/2026
+Discharged: 04/22/2026
+VITALS
+BP: 134/88 mmHg  HR: 98 bpm  Temp: 99.7 F  SpO2: 98%  RR: 17 breaths/min
+DIAGNOSES
+  • Chronic Obstructive Pulmonary Disease (J44.1)
+  • Anxiety Disorder, unspecified (F41.9)
+  • Major Depressive Disorder, recurrent (F33.0)
+MEDICATIONS
+  • Lisinopril 10mg — once daily
+  • Amoxicillin 500mg — three times daily for 10 days
+  • Amlodipine 5mg — once daily
+  • Gabapentin 300mg — three times daily
+  • Levothyroxine 75mcg — once daily on empty stomach
+  • Atorvastatin 20mg — once daily at bedtime
+HOSPITAL COURSE
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+SUBSTANCE ABUSE & ADDICTION ASSESSMENT
+Patient: Wilfredo VonRueden  SSN: 933-53-0014  MRN: MRN-88045499
+Naloxone rescue kit prescribed at discharge given history of opioid use disorder; patient and family educated on administration.
+Urine drug screen on admission was positive for benzodiazepines and opioids; patient reports prescribed use only.
+Patient previously completed 28-day residential treatment program for cocaine dependence; reports 14 months of sobriety.
+CAGE questionnaire score of 3/4; patient acknowledges problematic alcohol consumption averaging 12-15 drinks per week.
+Buprenorphine/naloxone (Suboxone) 8mg/2mg sublingual film initiated for opioid use disorder during this admission.
+Assessed by: Dr. Isom Hyatt, Addiction Medicine
+42 CFR Part 2 protected information — unauthorized disclosure prohibited.
+— End of record for Wilfredo VonRueden (MRN: MRN-88045499) —
+PATIENT 2 OF 6
+Name: Elenora Nader
+MRN: MRN-67588695
+DOB: 01/18/1977
+SSN: 304-32-9661
+Address: 1408 University Pkwy, Jacksonville, FL 32216
+Phone: (212) 979-2855
+Insurance: INS-2952571474
+Attending: Dr. Noemi Lehner
+Admitted: 04/11/2026
+Discharged: 04/16/2026
+VITALS
+BP: 100/84 mmHg  HR: 58 bpm  Temp: 98.3 F  SpO2: 94%  RR: 19 breaths/min
+DIAGNOSES
+  • Osteoarthritis, unspecified (M19.90)
+  • Urinary Tract Infection (N39.0)
+  • Type 2 Diabetes Mellitus (E11.9)
+  • Atrial Fibrillation (I48.91)
+  • Chronic Obstructive Pulmonary Disease (J44.1)
+MEDICATIONS
+  • Prednisone 10mg — taper over 7 days
+  • Hydrochlorothiazide 25mg — once daily
+  • Metformin 500mg — twice daily
+  • Amoxicillin 500mg — three times daily for 10 days
+HOSPITAL COURSE
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+PSYCHIATRIC EVALUATION & MENTAL HEALTH NOTES
+Patient: Elenora Nader  DOB: 01/18/1977  SSN: 304-32-9661
+History of three prior psychiatric hospitalizations for acute mania with grandiose delusions and decreased need for sleep.
+Patient carries an active diagnosis of Bipolar I Disorder with psychotic features (F31.2); lithium levels monitored during admission.
+Schizoaffective disorder, depressive type, managed with paliperidone palmitate (Invega Sustenna) 156mg IM monthly.
+Eating disorder history documented: anorexia nervosa, restricting type, with BMI of 16.2 on admission; nutrition consult placed.
+Evaluating Psychiatrist: Dr. Maddison Price, MD, Board Certified Psychiatry
+Protected mental health information per state and federal law.
+— End of record for Elenora Nader (MRN: MRN-67588695) —
+PATIENT 3 OF 6
+Name: Richie Bayer
+MRN: MRN-12579295
+DOB: 10/03/1954
+SSN: 295-81-0159
+Address: 8140 Oak Ave, Charleston, SC 29412
+Phone: (202) 349-3827
+Insurance: INS-7143161474
+Attending: Dr. Angeline Willms
+Admitted: 04/11/2026
+Discharged: 04/14/2026
+VITALS
+BP: 128/83 mmHg  HR: 62 bpm  Temp: 97.6 F  SpO2: 93%  RR: 24 breaths/min
+DIAGNOSES
+  • Major Depressive Disorder, recurrent (F33.0)
+  • Chronic Obstructive Pulmonary Disease (J44.1)
+  • Urinary Tract Infection (N39.0)
+  • Osteoarthritis, unspecified (M19.90)
+MEDICATIONS
+  • Amoxicillin 500mg — three times daily for 10 days
+  • Prednisone 10mg — taper over 7 days
+  • Sertraline 50mg — once daily
+  • Hydrochlorothiazide 25mg — once daily
+  • Omeprazole 20mg — once daily before breakfast
+HOSPITAL COURSE
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+HIV/STI SCREENING & TREATMENT NOTES
+Patient: Richie Bayer  MRN: MRN-12579295  Insurance: INS-7143161474
+Patient reports inconsistent condom use with multiple sexual partners; PrEP counseling provided and referral to sexual health clinic.
+RPR reactive with titer of 1:64; confirmatory FTA-ABS positive consistent with secondary syphilis; IM penicillin G administered.
+Hepatitis B surface antigen positive; HBV DNA viral load of 45,000 IU/mL; hepatology referral for treatment initiation.
+Patient is HIV-positive, diagnosed in 2019, currently on antiretroviral therapy: Biktarvy (bictegravir/emtricitabine/tenofovir alafenamide) daily.
+HIV genotype resistance testing performed; no major resistance mutations identified on current regimen.
+Infectious Disease Consult: Dr. Shyanne Schaefer
+HIV-related information protected under state confidentiality statutes.
+— End of record for Richie Bayer (MRN: MRN-12579295) —
+PATIENT 4 OF 6
+Name: Tressa Tromp
+MRN: MRN-53882495
+DOB: 02/14/1983
+SSN: 776-56-1061
+Address: 6486 Broad St, Pittsburgh, PA 15224
+Phone: (912) 268-2386
+Insurance: INS-1405568798
+Attending: Dr. Dawn Crist
+Admitted: 04/11/2026
+Discharged: 04/13/2026
+VITALS
+BP: 154/84 mmHg  HR: 81 bpm  Temp: 97.1 F  SpO2: 96%  RR: 13 breaths/min
+DIAGNOSES
+  • Major Depressive Disorder, recurrent (F33.0)
+  • Osteoarthritis, unspecified (M19.90)
+  • Acute Upper Respiratory Infection (J06.9)
+  • Urinary Tract Infection (N39.0)
+MEDICATIONS
+  • Metformin 500mg — twice daily
+  • Lisinopril 10mg — once daily
+  • Sertraline 50mg — once daily
+  • Prednisone 10mg — taper over 7 days
+  • Amlodipine 5mg — once daily
+  • Hydrochlorothiazide 25mg — once daily
+  • Levothyroxine 75mcg — once daily on empty stomach
+HOSPITAL COURSE
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+GENETIC TESTING RESULTS & COUNSELING NOTES
+Patient: Tressa Tromp  DOB: 02/14/1983  SSN: 776-56-1061
+Pharmacogenomic testing revealed CYP2D6 poor metabolizer status; codeine and tramadol contraindicated per FDA labeling.
+Whole exome sequencing identified pathogenic variant in CFTR gene consistent with cystic fibrosis carrier status.
+Hereditary hemochromatosis: HFE C282Y homozygous genotype confirmed; therapeutic phlebotomy schedule initiated.
+Genetic Counselor: Gennaro Gutkowski, MS, CGC
+GINA-protected genetic information — disclosure restrictions apply.
+— End of record for Tressa Tromp (MRN: MRN-53882495) —
+PATIENT 5 OF 6
+Name: Napoleon Denesik
+MRN: MRN-71274846
+DOB: 09/20/2001
+SSN: 491-64-7522
+Address: 7402 Atlantic Ave, Hartford, CT 06103
+Phone: (401) 217-6120
+Insurance: INS-6565578051
+Attending: Dr. Ruthie Powlowski
+Admitted: 04/11/2026
+Discharged: 04/19/2026
+VITALS
+BP: 103/69 mmHg  HR: 82 bpm  Temp: 99.1 F  SpO2: 96%  RR: 23 breaths/min
+DIAGNOSES
+  • Osteoarthritis, unspecified (M19.90)
+  • Acute Upper Respiratory Infection (J06.9)
+  • Gastroesophageal Reflux Disease (K21.0)
+  • Urinary Tract Infection (N39.0)
+  • Chronic Kidney Disease, Stage 3 (N18.3)
+MEDICATIONS
+  • Lisinopril 10mg — once daily
+  • Prednisone 10mg — taper over 7 days
+  • Levothyroxine 75mcg — once daily on empty stomach
+  • Sertraline 50mg — once daily
+  • Metformin 500mg — twice daily
+HOSPITAL COURSE
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+DOMESTIC VIOLENCE / INTIMATE PARTNER VIOLENCE SCREENING
+Patient: Napoleon Denesik  Address: 7402 Atlantic Ave, Hartford, CT 06103  Phone: (401) 217-6120
+Photographs of injuries documented per forensic protocol with patient consent; injuries inconsistent with reported mechanism.
+Intimate partner violence screening positive; patient reports physical abuse by current partner occurring 2-3 times monthly.
+Safety assessment completed: patient states she does not feel safe returning home; social work consulted for shelter placement.
+Patient provided with National Domestic Violence Hotline number (1-800-799-7233) and local advocacy resources.
+Screened by: Marquise Kris, LCSW
+Sensitive domestic violence documentation — restricted access per hospital policy.
+— End of record for Napoleon Denesik (MRN: MRN-71274846) —
+PATIENT 6 OF 6
+Name: Arnaldo Lehner
+MRN: MRN-33914586
+DOB: 06/08/1998
+SSN: 755-25-9318
+Address: 7758 Maple Dr, Jacksonville, FL 32216
+Phone: (305) 933-1604
+Insurance: INS-8843023383
+Attending: Dr. Godfrey Champlin
+Admitted: 04/11/2026
+Discharged: 04/22/2026
+VITALS
+BP: 144/90 mmHg  HR: 61 bpm  Temp: 97.7 F  SpO2: 97%  RR: 22 breaths/min
+DIAGNOSES
+  • Chronic Obstructive Pulmonary Disease (J44.1)
+  • Hyperlipidemia (E78.5)
+  • Osteoarthritis, unspecified (M19.90)
+  • Urinary Tract Infection (N39.0)
+  • Major Depressive Disorder, recurrent (F33.0)
+MEDICATIONS
+  • Lisinopril 10mg — once daily
+  • Metformin 500mg — twice daily
+  • Levothyroxine 75mcg — once daily on empty stomach
+  • Metoprolol 25mg — twice daily
+HOSPITAL COURSE
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+SUBSTANCE ABUSE & ADDICTION ASSESSMENT
+Patient: Arnaldo Lehner  SSN: 755-25-9318  MRN: MRN-33914586
+Patient admitted to daily cannabis use for the past 3 years; counseled on cessation and referred to addiction services.
+Methadone maintenance therapy continued at 80mg daily during hospitalization per outpatient opioid treatment program.
+Patient previously completed 28-day residential treatment program for cocaine dependence; reports 14 months of sobriety.
+AUDIT-C score of 8 indicates hazardous drinking pattern; brief intervention performed with motivational interviewing techniques.
+Buprenorphine/naloxone (Suboxone) 8mg/2mg sublingual film initiated for opioid use disorder during this admission.
+Assessed by: Dr. Brisa Gulgowski, Addiction Medicine
+42 CFR Part 2 protected information — unauthorized disclosure prohibited.
+— End of record for Arnaldo Lehner (MRN: MRN-33914586) —
+END OF CONSOLIDATED PATIENT RECORDS
+Total patients: 6  |  Generated: 04/13/2026

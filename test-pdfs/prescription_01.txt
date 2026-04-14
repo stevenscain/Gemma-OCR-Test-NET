@@ -1,0 +1,16 @@
+Dr. Emelia Heidenreich
+Internal Medicine
+7000 Park Ave, Jacksonville, FL 32216
+Phone: (984) 549-8725  |  DEA#: EM1122311
+NPI: 1640104425
+Date: 04/05/2026
+Patient Name: Frieda Ledner
+DOB: 07/05/1971    MRN: MRN-18028305
+Address: 7897 Medical Center Blvd, Savannah, GA 31401
+Rx
+Prednisone 10mg
+Sig: Take taper over 7 days
+Qty: #30    Refills: 2
+DAW: No
+Prescriber Signature: Dr. Emelia Heidenreich
+Date: 04/05/2026

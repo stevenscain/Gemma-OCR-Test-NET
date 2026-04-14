@@ -1,0 +1,52 @@
+Tremblay, Ankunding and Will Laboratory Services
+7468 Meeting St, Philadelphia, PA 19107
+LABORATORY REPORT
+Patient: Isom Pfannerstill
+MRN: MRN-51679079
+DOB: 09/17/1944
+Collection Date: 04/10/2026
+Ordering Physician: Dr. Murl Thiel
+Report Date: 04/11/2026
+GENERAL PANEL - Collected 04/10/2026
+Test
+Result
+Reference Range
+Flag
+Potassium
+3.3 mEq/L
+3.5-5.0 mEq/L
+
+Hemoglobin A1c
+9.5%
+4.0-5.6%
+
+Platelet Count
+175 K/uL
+150-400 K/uL
+H
+LDL Cholesterol
+61 mg/dL
+<100 mg/dL
+
+Glucose, Fasting
+180 mg/dL
+70-100 mg/dL
+
+Sodium
+142 mEq/L
+136-145 mEq/L
+
+Creatinine
+1.00 mg/dL
+0.7-1.3 mg/dL
+H
+Hemoglobin
+11.7 g/dL
+12.0-17.5 g/dL
+
+WBC
+3.3 K/uL
+4.5-11.0 K/uL
+
+H = High, L = Low. Results outside reference range are flagged.
+Verified by: Roberto Mitchell, MD, Lab Director

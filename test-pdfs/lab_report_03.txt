@@ -1,0 +1,60 @@
+Rodriguez - Swaniawski Laboratory Services
+9016 Peachtree Rd, Pittsburgh, PA 15260
+LABORATORY REPORT
+Patient: Bridie Mueller
+MRN: MRN-42892757
+DOB: 05/26/1956
+Collection Date: 04/10/2026
+Ordering Physician: Dr. Kristoffer Nader
+Report Date: 04/11/2026
+GENERAL PANEL - Collected 04/10/2026
+Test
+Result
+Reference Range
+Flag
+Sodium
+134 mEq/L
+136-145 mEq/L
+
+HDL Cholesterol
+28 mg/dL
+>40 mg/dL
+
+TSH
+8.92 mIU/L
+0.4-4.0 mIU/L
+L
+Hemoglobin A1c
+6.9%
+4.0-5.6%
+L
+BUN
+26 mg/dL
+7-20 mg/dL
+
+Total Cholesterol
+234 mg/dL
+<200 mg/dL
+H
+LDL Cholesterol
+105 mg/dL
+<100 mg/dL
+L
+Platelet Count
+103 K/uL
+150-400 K/uL
+
+WBC
+5.9 K/uL
+4.5-11.0 K/uL
+
+Potassium
+4.4 mEq/L
+3.5-5.0 mEq/L
+L
+Creatinine
+3.47 mg/dL
+0.7-1.3 mg/dL
+
+H = High, L = Low. Results outside reference range are flagged.
+Verified by: Stephan Rolfson, MD, Lab Director

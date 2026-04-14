@@ -1,0 +1,801 @@
+Wisozk Group Regional Medical Center
+3327 Elm St, Newark, NJ 07107
+CONSOLIDATED PATIENT RECORDS — CONFIDENTIAL
+Report Generated: 04/13/2026 06:41 PM
+Boundary Interval: 3 page(s) per patient block
+PATIENT 1 OF 6
+Name: Dayton Walker
+MRN: MRN-55716411
+DOB: 07/23/1940
+SSN: 295-28-6241
+Address: 4234 Maple Dr, Boston, MA 02215
+Phone: (267) 833-3105
+Insurance: INS-8605078563
+Attending: Dr. Torrey Pouros
+Admitted: 04/11/2026
+Discharged: 04/14/2026
+VITALS
+BP: 127/93 mmHg  HR: 102 bpm  Temp: 97.6 F  SpO2: 93%  RR: 17 breaths/min
+DIAGNOSES
+  • Chronic Obstructive Pulmonary Disease (J44.1)
+  • Osteoarthritis, unspecified (M19.90)
+  • Anxiety Disorder, unspecified (F41.9)
+MEDICATIONS
+  • Amlodipine 5mg — once daily
+  • Hydrochlorothiazide 25mg — once daily
+  • Omeprazole 20mg — once daily before breakfast
+  • Lisinopril 10mg — once daily
+  • Atorvastatin 20mg — once daily at bedtime
+  • Metoprolol 25mg — twice daily
+  • Prednisone 10mg — taper over 7 days
+HOSPITAL COURSE
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+SUBSTANCE ABUSE & ADDICTION ASSESSMENT
+Patient: Dayton Walker  SSN: 295-28-6241  MRN: MRN-55716411
+CAGE questionnaire score of 3/4; patient acknowledges problematic alcohol consumption averaging 12-15 drinks per week.
+Buprenorphine/naloxone (Suboxone) 8mg/2mg sublingual film initiated for opioid use disorder during this admission.
+AUDIT-C score of 8 indicates hazardous drinking pattern; brief intervention performed with motivational interviewing techniques.
+Naloxone rescue kit prescribed at discharge given history of opioid use disorder; patient and family educated on administration.
+Assessed by: Dr. Elva Kuhn, Addiction Medicine
+42 CFR Part 2 protected information — unauthorized disclosure prohibited.
+— End of record for Dayton Walker (MRN: MRN-55716411) —
+PATIENT 2 OF 6
+Name: Burley Mitchell
+MRN: MRN-22895722
+DOB: 08/30/1944
+SSN: 095-42-5527
+Address: 9713 Walnut St, Miami, FL 33136
+Phone: (912) 225-9548
+Insurance: INS-6058252224
+Attending: Dr. Christina Schamberger
+Admitted: 04/11/2026
+Discharged: 04/20/2026
+VITALS
+BP: 108/73 mmHg  HR: 71 bpm  Temp: 100.4 F  SpO2: 92%  RR: 18 breaths/min
+DIAGNOSES
+  • Type 2 Diabetes Mellitus (E11.9)
+  • Anxiety Disorder, unspecified (F41.9)
+  • Essential Hypertension (I10)
+  • Chronic Obstructive Pulmonary Disease (J44.1)
+  • Osteoarthritis, unspecified (M19.90)
+MEDICATIONS
+  • Atorvastatin 20mg — once daily at bedtime
+  • Levothyroxine 75mcg — once daily on empty stomach
+  • Lisinopril 10mg — once daily
+  • Prednisone 10mg — taper over 7 days
+HOSPITAL COURSE
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+PSYCHIATRIC EVALUATION & MENTAL HEALTH NOTES
+Patient: Burley Mitchell  DOB: 08/30/1944  SSN: 095-42-5527
+Patient has documented history of self-harm behavior including cutting; last episode reported 3 weeks prior to admission.
+Schizoaffective disorder, depressive type, managed with paliperidone palmitate (Invega Sustenna) 156mg IM monthly.
+Eating disorder history documented: anorexia nervosa, restricting type, with BMI of 16.2 on admission; nutrition consult placed.
+PHQ-9 score of 22 on admission consistent with severe major depressive episode; psychiatric consultation requested.
+Patient endorsed auditory hallucinations described as commanding voices; antipsychotic medication adjusted accordingly.
+Evaluating Psychiatrist: Dr. Brian Cremin, MD, Board Certified Psychiatry
+Protected mental health information per state and federal law.
+— End of record for Burley Mitchell (MRN: MRN-22895722) —
+PATIENT 3 OF 6
+Name: Maxine Bayer
+MRN: MRN-61380873
+DOB: 07/07/1954
+SSN: 939-85-1616
+Address: 4952 Washington Blvd, Savannah, GA 31405
+Phone: (804) 428-9345
+Insurance: INS-6449876720
+Attending: Dr. Cora Kling
+Admitted: 04/11/2026
+Discharged: 04/13/2026
+VITALS
+BP: 126/67 mmHg  HR: 100 bpm  Temp: 99.5 F  SpO2: 100%  RR: 23 breaths/min
+DIAGNOSES
+  • Major Depressive Disorder, recurrent (F33.0)
+  • Chronic Obstructive Pulmonary Disease (J44.1)
+  • Anxiety Disorder, unspecified (F41.9)
+  • Essential Hypertension (I10)
+  • Chronic Kidney Disease, Stage 3 (N18.3)
+MEDICATIONS
+  • Amoxicillin 500mg — three times daily for 10 days
+  • Metoprolol 25mg — twice daily
+  • Gabapentin 300mg — three times daily
+  • Hydrochlorothiazide 25mg — once daily
+  • Prednisone 10mg — taper over 7 days
+  • Omeprazole 20mg — once daily before breakfast
+HOSPITAL COURSE
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+HIV/STI SCREENING & TREATMENT NOTES
+Patient: Maxine Bayer  MRN: MRN-61380873  Insurance: INS-6449876720
+Patient diagnosed with genital herpes simplex virus type 2; valacyclovir 1g BID initiated for acute outbreak management.
+Gonorrhea and chlamydia NAAT screening performed on pharyngeal, rectal, and urogenital specimens; results pending at discharge.
+CD4 count obtained during admission: 485 cells/mm3; viral load undetectable (<20 copies/mL) confirming virologic suppression.
+RPR reactive with titer of 1:64; confirmatory FTA-ABS positive consistent with secondary syphilis; IM penicillin G administered.
+Patient reports inconsistent condom use with multiple sexual partners; PrEP counseling provided and referral to sexual health clinic.
+Infectious Disease Consult: Dr. Savion Jast
+HIV-related information protected under state confidentiality statutes.
+— End of record for Maxine Bayer (MRN: MRN-61380873) —
+PATIENT 4 OF 6
+Name: Ulises Stoltenberg
+MRN: MRN-57740842
+DOB: 02/23/2005
+SSN: 202-85-6314
+Address: 6424 Church St, Savannah, GA 31405
+Phone: (857) 790-7224
+Insurance: INS-3351956658
+Attending: Dr. Tia Lind
+Admitted: 04/11/2026
+Discharged: 04/15/2026
+VITALS
+BP: 142/98 mmHg  HR: 79 bpm  Temp: 99.8 F  SpO2: 93%  RR: 15 breaths/min
+DIAGNOSES
+  • Essential Hypertension (I10)
+  • Urinary Tract Infection (N39.0)
+  • Atrial Fibrillation (I48.91)
+MEDICATIONS
+  • Amoxicillin 500mg — three times daily for 10 days
+  • Gabapentin 300mg — three times daily
+  • Levothyroxine 75mcg — once daily on empty stomach
+  • Sertraline 50mg — once daily
+  • Amlodipine 5mg — once daily
+  • Metformin 500mg — twice daily
+HOSPITAL COURSE
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+GENETIC TESTING RESULTS & COUNSELING NOTES
+Patient: Ulises Stoltenberg  DOB: 02/23/2005  SSN: 202-85-6314
+Whole exome sequencing identified pathogenic variant in CFTR gene consistent with cystic fibrosis carrier status.
+Hereditary hemochromatosis: HFE C282Y homozygous genotype confirmed; therapeutic phlebotomy schedule initiated.
+BRCA1 pathogenic variant identified (c.5266dupC); patient referred to genetic counselor and surgical oncology for risk-reducing options.
+Genetic Counselor: Vernie Bode, MS, CGC
+GINA-protected genetic information — disclosure restrictions apply.
+— End of record for Ulises Stoltenberg (MRN: MRN-57740842) —
+PATIENT 5 OF 6
+Name: Bridie Towne
+MRN: MRN-28643831
+DOB: 08/31/1987
+SSN: 584-56-0842
+Address: 6314 Cedar Ln, Charlotte, NC 28216
+Phone: (843) 662-3978
+Insurance: INS-6673236365
+Attending: Dr. Chloe Johnson
+Admitted: 04/11/2026
+Discharged: 04/16/2026
+VITALS
+BP: 114/80 mmHg  HR: 106 bpm  Temp: 98.7 F  SpO2: 96%  RR: 24 breaths/min
+DIAGNOSES
+  • Acute Upper Respiratory Infection (J06.9)
+  • Type 2 Diabetes Mellitus (E11.9)
+  • Anxiety Disorder, unspecified (F41.9)
+  • Essential Hypertension (I10)
+  • Major Depressive Disorder, recurrent (F33.0)
+MEDICATIONS
+  • Prednisone 10mg — taper over 7 days
+  • Atorvastatin 20mg — once daily at bedtime
+  • Amoxicillin 500mg — three times daily for 10 days
+  • Sertraline 50mg — once daily
+HOSPITAL COURSE
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+DOMESTIC VIOLENCE / INTIMATE PARTNER VIOLENCE SCREENING
+Patient: Bridie Towne  Address: 6314 Cedar Ln, Charlotte, NC 28216  Phone: (843) 662-3978
+Safety assessment completed: patient states she does not feel safe returning home; social work consulted for shelter placement.
+Patient provided with National Domestic Violence Hotline number (1-800-799-7233) and local advocacy resources.
+Mandatory reporting completed per state law given suspected abuse involving a vulnerable adult; Adult Protective Services notified.
+Photographs of injuries documented per forensic protocol with patient consent; injuries inconsistent with reported mechanism.
+Screened by: Garrick Schumm, LCSW
+Sensitive domestic violence documentation — restricted access per hospital policy.
+— End of record for Bridie Towne (MRN: MRN-28643831) —
+PATIENT 6 OF 6
+Name: Guy Fadel
+MRN: MRN-38028972
+DOB: 10/11/1948
+SSN: 938-58-9896
+Address: 250 Beacon St, Newark, NJ 07102
+Phone: (207) 283-6960
+Insurance: INS-4455208695
+Attending: Dr. Dejah Block
+Admitted: 04/11/2026
+Discharged: 04/16/2026
+VITALS
+BP: 133/73 mmHg  HR: 90 bpm  Temp: 100.2 F  SpO2: 92%  RR: 13 breaths/min
+DIAGNOSES
+  • Chronic Obstructive Pulmonary Disease (J44.1)
+  • Anxiety Disorder, unspecified (F41.9)
+  • Urinary Tract Infection (N39.0)
+MEDICATIONS
+  • Amlodipine 5mg — once daily
+  • Metoprolol 25mg — twice daily
+  • Atorvastatin 20mg — once daily at bedtime
+  • Prednisone 10mg — taper over 7 days
+HOSPITAL COURSE
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.
+Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Chaplain services offered to patient and family; patient declined at this time but is aware services are available.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.
+Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.
+Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.
+Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.
+Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.
+Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.
+Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.
+Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.
+The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.
+Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.
+SUBSTANCE ABUSE & ADDICTION ASSESSMENT
+Patient: Guy Fadel  SSN: 938-58-9896  MRN: MRN-38028972
+Patient previously completed 28-day residential treatment program for cocaine dependence; reports 14 months of sobriety.
+Urine drug screen on admission was positive for benzodiazepines and opioids; patient reports prescribed use only.
+History of intravenous heroin use with last reported use 6 months prior to admission; Hepatitis C antibody positive.
+AUDIT-C score of 8 indicates hazardous drinking pattern; brief intervention performed with motivational interviewing techniques.
+Assessed by: Dr. Roy Schulist, Addiction Medicine
+42 CFR Part 2 protected information — unauthorized disclosure prohibited.
+— End of record for Guy Fadel (MRN: MRN-38028972) —
+END OF CONSOLIDATED PATIENT RECORDS
+Total patients: 6  |  Generated: 04/13/2026

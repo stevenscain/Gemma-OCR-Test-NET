@@ -1,0 +1,35 @@
+Hagenes and Sons Medical Center
+7733 Commonwealth Ave, Richmond, VA 23230
+Phone: (984) 422-7723  |  Fax: (912) 503-5935
+DISCHARGE SUMMARY
+PATIENT INFORMATION
+Patient Name: Bailee Barrows
+MRN: MRN-10645430
+Date of Birth: 04/22/1947
+Insurance ID: INS-3928282167
+Admission Date: 04/11/2026
+Discharge Date: 04/12/2026
+Attending Physician: Dr. Elenora Daugherty
+VITALS AT DISCHARGE
+BP: 118/98 mmHg
+HR: 103 bpm
+Temp: 97.1 F
+SpO2: 100%
+Resp Rate: 16 breaths/min
+Weight: 129 lbs
+DIAGNOSES
+  1. Osteoarthritis, unspecified (M19.90)
+  2. Acute Upper Respiratory Infection (J06.9)
+HOSPITAL COURSE
+Patient was transferred from an outside facility for higher level of care. The patient was empirically started on broad-spectrum IV antibiotics pending culture results. Case management coordinated a home health referral for post-discharge wound care and medication compliance. The patient demonstrated good understanding of the medication changes and dietary restrictions explained. Repeat imaging demonstrated interval improvement with no new findings of concern. On admission, the patient was alert and oriented, in mild-to-moderate distress. Echocardiogram demonstrated preserved ejection fraction with mild diastolic dysfunction.
+DISCHARGE MEDICATIONS
+  1. Omeprazole 20mg - once daily before breakfast
+  2. Levothyroxine 75mcg - once daily on empty stomach
+  3. Metoprolol 25mg - twice daily
+  4. Amoxicillin 500mg - three times daily for 10 days
+  5. Metformin 500mg - twice daily
+  6. Prednisone 10mg - taper over 7 days
+FOLLOW-UP INSTRUCTIONS
+Follow up with Dr. Elenora Daugherty on 04/29/2026. Emergency contact information and after-hours nurse line number provided to patient and family. The patient should avoid strenuous physical activity until cleared at the follow-up appointment.
+Electronically signed by Dr. Elenora Daugherty
+Date: 04/12/2026 06:41 PM

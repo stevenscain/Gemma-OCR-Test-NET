@@ -1,0 +1,66 @@
+Simonis, Bednar and Lubowitz Medical Center
+4101 Broad St, Pittsburgh, PA 15224
+Phone: (804) 840-9398  |  Fax: (678) 403-6821
+DISCHARGE SUMMARY
+PATIENT INFORMATION
+Patient Name: Bella Halvorson
+MRN: MRN-16338557
+Date of Birth: 10/06/1946
+Insurance ID: INS-3258266599
+Admission Date: 04/11/2026
+Discharge Date: 04/20/2026
+Attending Physician: Dr. Neoma Lowe
+VITALS AT DISCHARGE
+BP: 152/63 mmHg
+HR: 100 bpm
+Temp: 99.0 F
+SpO2: 94%
+Resp Rate: 16 breaths/min
+Weight: 231 lbs
+DIAGNOSES
+  1. Urinary Tract Infection (N39.0)
+  2. Atrial Fibrillation (I48.91)
+  3. Acute Upper Respiratory Infection (J06.9)
+  4. Major Depressive Disorder, recurrent (F33.0)
+  5. Osteoarthritis, unspecified (M19.90)
+  6. Chronic Obstructive Pulmonary Disease (J44.1)
+HOSPITAL COURSE
+Patient was admitted electively for management and optimization of chronic conditions. Strict fluid balance was maintained with daily weight checks and accurate intake/output recording. The patient demonstrated good understanding of the medication changes and dietary restrictions explained. The patient's family was present and actively involved in discharge planning discussions. The patient's electrolytes were repleted as needed with close monitoring of serum levels. Pulmonology was consulted and recommended pulmonary function testing as an outpatient. DVT prophylaxis with subcutaneous heparin was maintained throughout the hospitalization. Home medications were reviewed and held or adjusted as clinically indicated.
+Patient was admitted electively for management and optimization of chronic conditions. Repeat laboratory values showed improvement in renal function and resolution of leukocytosis. Respiratory therapy provided nebulization treatments every four hours with improvement in oxygen requirements. Cardiology was consulted and recommended rate control and anticoagulation therapy. Echocardiogram demonstrated preserved ejection fraction with mild diastolic dysfunction. Repeat imaging demonstrated interval improvement with no new findings of concern. The patient was empirically started on broad-spectrum IV antibiotics pending culture results. Vital signs trended toward baseline over the subsequent 48 hours.
+Patient was admitted via the emergency department following abdominal pain with nausea and vomiting. Patient was admitted for acute management and close hemodynamic monitoring. Initial assessment revealed tachycardia and elevated inflammatory markers. The patient was placed on continuous telemetry and pulse oximetry. Physical therapy and occupational therapy were consulted for early mobilization and functional assessment.
+Patient was admitted via the emergency department following poorly controlled blood glucose and metabolic derangements. Insulin sliding scale was initiated for glycemic management with target glucose 140-180 mg/dL. CT imaging of the chest and abdomen was obtained and reviewed with radiology. The patient was empirically started on broad-spectrum IV antibiotics pending culture results. Pulmonology was consulted and recommended pulmonary function testing as an outpatient.
+DISCHARGE MEDICATIONS
+  1. Gabapentin 300mg - three times daily
+  2. Amlodipine 5mg - once daily
+  3. Atorvastatin 20mg - once daily at bedtime
+  4. Prednisone 10mg - taper over 7 days
+  5. Levothyroxine 75mcg - once daily on empty stomach
+  6. Omeprazole 20mg - once daily before breakfast
+  7. Metformin 500mg - twice daily
+  8. Sertraline 50mg - once daily
+  9. Hydrochlorothiazide 25mg - once daily
+PROCEDURES PERFORMED
+  1. Bronchoscopy with lavage
+  2. Arterial blood gas analysis
+  3. Echocardiogram (transthoracic)
+  4. Blood transfusion (2 units packed RBCs)
+CONSULTATION NOTES
+  Nephrology - Dr. Eliezer Powlowski
+    Creatinine trending downward following fluid resuscitation and removal of offending agents. Electrolytes closely monitored; potassium supplementation adjusted per daily levels. Outpatient nephrology follow-up arranged with repeat metabolic panel in one week. Chronic kidney disease staging reviewed; dietary counseling with nephrology dietitian recommended. Nephrotoxic medications identified and held; IV fluid challenge administered with urine output monitored. Renal ultrasound obtained to rule out obstructive uropathy; results without significant abnormality.
+  Infectious Disease - Dr. Abbie Kuhic
+    Recommend total antibiotic course of 7 days with transition to oral therapy once tolerating PO. Patient educated on medication adherence and signs and symptoms requiring return to care. Blood cultures finalized with no growth at 72 hours; IV antibiotics de-escalated accordingly. Culture sensitivities reviewed; antibiotic regimen narrowed to targeted coverage per susceptibilities. Patient evaluated for complicated infection requiring IV antibiotics.
+  Cardiology - Dr. Loy Douglas
+    Recommend anticoagulation with apixaban given CHA2DS2-VASc score of 2. Lipid panel reviewed; statin therapy optimized. Patient evaluated for heart failure management. Echocardiogram revealed preserved ejection fraction of 49% with mild diastolic dysfunction. Patient counseled on sodium restriction, daily weight monitoring, and signs of worsening heart failure. Stress testing deferred given current clinical status; recommended as outpatient. Cardiac biomarkers trended downward over 12 hours, ruling out acute myocardial infarction by serial troponin protocol. Follow-up in cardiology clinic in 2-4 weeks post-discharge with repeat echocardiogram at that visit.
+PATIENT EDUCATION & DISCHARGE INSTRUCTIONS
+  - Diet: Low sodium (<2g/day), diabetic diet as previously prescribed.
+  - Activity: No heavy lifting >10 lbs for 2 weeks. Gradual return to normal activity.
+  - Wound care: Keep incision site clean and dry. Change dressing daily.
+  - Warning signs: Return to ER if experiencing chest pain, shortness of breath, fever >101.5F, or worsening symptoms.
+  - Medications: Take all medications as prescribed. Do not skip doses.
+  - Follow-up labs: CBC, CMP, and coagulation panel in 1 week at Borer Inc Lab.
+  - Smoking cessation counseling provided. Patient advised to quit smoking.
+  - Home health: Moen Inc Home Health will contact within 48 hours for wound care visits.
+FOLLOW-UP INSTRUCTIONS
+Follow up with Dr. Neoma Lowe on 05/18/2026. All follow-up laboratory work has been pre-ordered and scheduled at the outpatient facility. The patient should avoid strenuous physical activity until cleared at the follow-up appointment. The patient is instructed to weigh themselves daily and call the office if weight increases by more than 3 lbs in 24 hours. Dietary counseling was reinforced with written materials provided in the patient's preferred language.
+Electronically signed by Dr. Neoma Lowe
+Date: 04/20/2026 06:41 PM

@@ -1,0 +1,56 @@
+Hackett, Weimann and Davis Laboratory Services
+8035 Park Ave, New York, NY 10029
+LABORATORY REPORT
+Patient: Savanna Graham
+MRN: MRN-50231206
+DOB: 01/11/1961
+Collection Date: 04/10/2026
+Ordering Physician: Dr. Flavie Hauck
+Report Date: 04/11/2026
+GENERAL PANEL - Collected 04/10/2026
+Test
+Result
+Reference Range
+Flag
+HDL Cholesterol
+69 mg/dL
+>40 mg/dL
+
+WBC
+11.4 K/uL
+4.5-11.0 K/uL
+L
+Glucose, Fasting
+239 mg/dL
+70-100 mg/dL
+H
+Creatinine
+2.00 mg/dL
+0.7-1.3 mg/dL
+
+Hemoglobin
+13.9 g/dL
+12.0-17.5 g/dL
+
+TSH
+7.45 mIU/L
+0.4-4.0 mIU/L
+H
+Hemoglobin A1c
+9.5%
+4.0-5.6%
+
+LDL Cholesterol
+147 mg/dL
+<100 mg/dL
+
+BUN
+29 mg/dL
+7-20 mg/dL
+
+Sodium
+139 mEq/L
+136-145 mEq/L
+H
+H = High, L = Low. Results outside reference range are flagged.
+Verified by: Katharina Reichel, MD, Lab Director

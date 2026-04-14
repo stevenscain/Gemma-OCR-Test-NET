@@ -1,0 +1,16 @@
+Dr. Mckayla Cummings
+Cardiology
+1134 Medical Center Blvd, Atlanta, GA 30322
+Phone: (857) 531-5345  |  DEA#: CR6744812
+NPI: 1653544612
+Date: 04/13/2026
+Patient Name: Faustino McCullough
+DOB: 09/09/1990    MRN: MRN-37189869
+Address: 3347 Peachtree Rd, Jacksonville, FL 32099
+Rx
+Levothyroxine 75mcg
+Sig: Take once daily on empty stomach
+Qty: #30    Refills: 4
+DAW: No
+Prescriber Signature: Dr. Mckayla Cummings
+Date: 04/13/2026

@@ -1,0 +1,16 @@
+Dr. Rogers Jenkins
+Family Medicine
+3919 Broad St, Providence, RI 02903
+Phone: (202) 731-9495  |  DEA#: GV3984773
+NPI: 1154405968
+Date: 04/06/2026
+Patient Name: Matt Hartmann
+DOB: 01/06/1949    MRN: MRN-11844890
+Address: 6065 Elm St, Atlanta, GA 30308
+Rx
+Atorvastatin 20mg
+Sig: Take once daily at bedtime
+Qty: #60    Refills: 1
+DAW: No
+Prescriber Signature: Dr. Rogers Jenkins
+Date: 04/06/2026

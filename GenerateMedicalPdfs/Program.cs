@@ -4,12 +4,24 @@ using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 
 QuestPDF.Settings.License = LicenseType.Community;
-MedicalPdfGenerator.Run();
+MedicalPdfGenerator.Run(args);
 
 static class MedicalPdfGenerator
 {
     static readonly Faker Fake = new("en");
     static readonly Random Rng = new();
+
+    // ── Ground truth text capture ─────────────────────────────────────────
+    static List<string>? _gt;
+
+    static string GT(string s) { _gt?.Add(s); return s; }
+
+    static void SaveGT(string pdfPath)
+    {
+        if (_gt is not { Count: > 0 }) return;
+        File.WriteAllLines(Path.ChangeExtension(pdfPath, ".txt"), _gt);
+        _gt.Clear();
+    }
 
     // ── East Coast US locations ───────────────────────────────────────────
 
@@ -60,8 +72,11 @@ static class MedicalPdfGenerator
         return $"({ac}) {Rng.Next(200, 999):D3}-{Rng.Next(1000, 9999):D4}";
     }
 
-    public static void Run()
+    public static void Run(string[] args)
     {
+        if (args.Contains("--ground-truth"))
+            _gt = [];
+
         var outputDir = Path.Combine("..", "test-pdfs");
         Directory.CreateDirectory(outputDir);
         var total = 0;
@@ -72,7 +87,9 @@ static class MedicalPdfGenerator
             {
                 var filename = $"{docType}_{i:D2}.pdf";
                 var filepath = Path.Combine(outputDir, filename);
+                _gt?.Clear();
                 gen(filepath, multipage);
+                SaveGT(filepath);
                 Console.WriteLine($"Generated: {filepath}");
                 total++;
             }
@@ -89,12 +106,15 @@ static class MedicalPdfGenerator
         {
             var filename = $"commingled_boundary_{interval}pg.pdf";
             var filepath = Path.Combine(outputDir, filename);
+            _gt?.Clear();
             MakeCommingledStressTest(filepath, pagesPerPatient: interval, patientCount: 6);
+            SaveGT(filepath);
             Console.WriteLine($"Generated: {filepath}");
             total++;
         }
 
         Console.WriteLine($"\nDone! Generated {total} synthetic medical PDFs in '{outputDir}/'");
+        if (_gt != null) Console.WriteLine("Ground truth .txt files written alongside each PDF.");
     }
 
     // ── Patient / Vitals ─────────────────────────────────────────────────────
@@ -458,49 +478,49 @@ static class MedicalPdfGenerator
 
                 page.Content().Column(col =>
                 {
-                    col.Item().AlignCenter().Text(facilityName).Bold().FontSize(16);
-                    col.Item().AlignCenter().Text(facilityAddr).FontSize(9);
-                    col.Item().AlignCenter().Text($"Phone: {facilityPhone}  |  Fax: {facilityFax}").FontSize(9);
+                    col.Item().AlignCenter().Text(GT(facilityName)).Bold().FontSize(16);
+                    col.Item().AlignCenter().Text(GT(facilityAddr)).FontSize(9);
+                    col.Item().AlignCenter().Text(GT($"Phone: {facilityPhone}  |  Fax: {facilityFax}")).FontSize(9);
                     col.Item().PaddingVertical(4).LineHorizontal(1);
                     col.Item().PaddingTop(5);
-                    col.Item().AlignCenter().Text("DISCHARGE SUMMARY").Bold().FontSize(14);
+                    col.Item().AlignCenter().Text(GT("DISCHARGE SUMMARY")).Bold().FontSize(14);
                     col.Item().PaddingTop(5);
 
-                    col.Item().Text("PATIENT INFORMATION").Bold().FontSize(11);
-                    col.Item().Row(r => { r.RelativeItem().Text($"Patient Name: {patient["name"]}"); r.RelativeItem().Text($"MRN: {patient["mrn"]}"); });
-                    col.Item().Row(r => { r.RelativeItem().Text($"Date of Birth: {patient["dob"]}"); r.RelativeItem().Text($"Insurance ID: {patient["insurance_id"]}"); });
-                    col.Item().Row(r => { r.RelativeItem().Text($"Admission Date: {admitDate:MM/dd/yyyy}"); r.RelativeItem().Text($"Discharge Date: {dischargeDate:MM/dd/yyyy}"); });
-                    col.Item().Text($"Attending Physician: Dr. {doctor}");
+                    col.Item().Text(GT("PATIENT INFORMATION")).Bold().FontSize(11);
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"Patient Name: {patient["name"]}")); r.RelativeItem().Text(GT($"MRN: {patient["mrn"]}")); });
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"Date of Birth: {patient["dob"]}")); r.RelativeItem().Text(GT($"Insurance ID: {patient["insurance_id"]}")); });
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"Admission Date: {admitDate:MM/dd/yyyy}")); r.RelativeItem().Text(GT($"Discharge Date: {dischargeDate:MM/dd/yyyy}")); });
+                    col.Item().Text(GT($"Attending Physician: Dr. {doctor}"));
                     col.Item().PaddingTop(5);
 
-                    col.Item().Text("VITALS AT DISCHARGE").Bold().FontSize(11);
-                    col.Item().Row(r => { r.RelativeItem().Text($"BP: {vitals["blood_pressure"]}"); r.RelativeItem().Text($"HR: {vitals["heart_rate"]}"); });
-                    col.Item().Row(r => { r.RelativeItem().Text($"Temp: {vitals["temperature"]}"); r.RelativeItem().Text($"SpO2: {vitals["oxygen_saturation"]}"); });
-                    col.Item().Row(r => { r.RelativeItem().Text($"Resp Rate: {vitals["respiratory_rate"]}"); r.RelativeItem().Text($"Weight: {vitals["weight"]}"); });
+                    col.Item().Text(GT("VITALS AT DISCHARGE")).Bold().FontSize(11);
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"BP: {vitals["blood_pressure"]}")); r.RelativeItem().Text(GT($"HR: {vitals["heart_rate"]}")); });
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"Temp: {vitals["temperature"]}")); r.RelativeItem().Text(GT($"SpO2: {vitals["oxygen_saturation"]}")); });
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"Resp Rate: {vitals["respiratory_rate"]}")); r.RelativeItem().Text(GT($"Weight: {vitals["weight"]}")); });
                     col.Item().PaddingTop(5);
 
-                    col.Item().Text("DIAGNOSES").Bold().FontSize(11);
+                    col.Item().Text(GT("DIAGNOSES")).Bold().FontSize(11);
                     for (int i = 0; i < diagnoses.Count; i++)
-                        col.Item().Text($"  {i + 1}. {diagnoses[i]}");
+                        col.Item().Text(GT($"  {i + 1}. {diagnoses[i]}"));
                     col.Item().PaddingTop(5);
 
-                    col.Item().Text("HOSPITAL COURSE").Bold().FontSize(11);
+                    col.Item().Text(GT("HOSPITAL COURSE")).Bold().FontSize(11);
                     var numParagraphs = multipage ? Rng.Next(4, 8) : 1;
                     for (int i = 0; i < numParagraphs; i++)
                     {
-                        col.Item().Text(HospitalCourseParagraph());
+                        col.Item().Text(GT(HospitalCourseParagraph()));
                         col.Item().PaddingTop(3);
                     }
                     col.Item().PaddingTop(2);
 
-                    col.Item().Text("DISCHARGE MEDICATIONS").Bold().FontSize(11);
+                    col.Item().Text(GT("DISCHARGE MEDICATIONS")).Bold().FontSize(11);
                     for (int i = 0; i < meds.Count; i++)
-                        col.Item().Text($"  {i + 1}. {meds[i].Name} {meds[i].Dose} - {meds[i].Freq}");
+                        col.Item().Text(GT($"  {i + 1}. {meds[i].Name} {meds[i].Dose} - {meds[i].Freq}"));
                     col.Item().PaddingTop(5);
 
                     if (multipage)
                     {
-                        col.Item().Text("PROCEDURES PERFORMED").Bold().FontSize(11);
+                        col.Item().Text(GT("PROCEDURES PERFORMED")).Bold().FontSize(11);
                         string[] procedures =
                         [
                             "Central line placement (right internal jugular)",
@@ -513,21 +533,21 @@ static class MedicalPdfGenerator
                         ];
                         var selectedProcs = Fake.PickRandom(procedures, Rng.Next(3, 6)).ToList();
                         for (int i = 0; i < selectedProcs.Count; i++)
-                            col.Item().Text($"  {i + 1}. {selectedProcs[i]}");
+                            col.Item().Text(GT($"  {i + 1}. {selectedProcs[i]}"));
                         col.Item().PaddingTop(5);
 
-                        col.Item().Text("CONSULTATION NOTES").Bold().FontSize(11);
+                        col.Item().Text(GT("CONSULTATION NOTES")).Bold().FontSize(11);
                         string[] specialties = ["Cardiology", "Pulmonology", "Infectious Disease", "Nephrology", "Endocrinology"];
                         var selectedSpecs = Fake.PickRandom(specialties, Rng.Next(2, 5)).ToList();
                         foreach (var spec in selectedSpecs)
                         {
-                            col.Item().Text($"  {spec} - Dr. {Fake.Name.FullName()}").Bold();
-                            col.Item().Text($"    {ConsultationNote(spec)}");
+                            col.Item().Text(GT($"  {spec} - Dr. {Fake.Name.FullName()}")).Bold();
+                            col.Item().Text(GT($"    {ConsultationNote(spec)}"));
                             col.Item().PaddingTop(3);
                         }
                         col.Item().PaddingTop(5);
 
-                        col.Item().Text("PATIENT EDUCATION & DISCHARGE INSTRUCTIONS").Bold().FontSize(11);
+                        col.Item().Text(GT("PATIENT EDUCATION & DISCHARGE INSTRUCTIONS")).Bold().FontSize(11);
                         string[] instructions =
                         [
                             "Diet: Low sodium (<2g/day), diabetic diet as previously prescribed.",
@@ -540,17 +560,17 @@ static class MedicalPdfGenerator
                             $"Home health: {Fake.Company.CompanyName()} Home Health will contact within 48 hours for wound care visits.",
                         ];
                         foreach (var instr in instructions)
-                            col.Item().Text($"  - {instr}");
+                            col.Item().Text(GT($"  - {instr}"));
                         col.Item().PaddingTop(5);
                     }
 
-                    col.Item().Text("FOLLOW-UP INSTRUCTIONS").Bold().FontSize(11);
+                    col.Item().Text(GT("FOLLOW-UP INSTRUCTIONS")).Bold().FontSize(11);
                     var followUpDate = dischargeDate.AddDays(Rng.Next(7, 31));
-                    col.Item().Text(FollowupParagraph(doctor, followUpDate.ToString("MM/dd/yyyy")));
+                    col.Item().Text(GT(FollowupParagraph(doctor, followUpDate.ToString("MM/dd/yyyy"))));
                     col.Item().PaddingTop(8);
 
-                    col.Item().Text($"Electronically signed by Dr. {doctor}");
-                    col.Item().Text($"Date: {dischargeDate:MM/dd/yyyy hh:mm tt}");
+                    col.Item().Text(GT($"Electronically signed by Dr. {doctor}"));
+                    col.Item().Text(GT($"Date: {dischargeDate:MM/dd/yyyy hh:mm tt}"));
                 });
             });
         }).GeneratePdf(filepath);
@@ -578,16 +598,16 @@ static class MedicalPdfGenerator
 
                 page.Content().Column(col =>
                 {
-                    col.Item().AlignCenter().Text(facilityName).Bold().FontSize(14);
-                    col.Item().AlignCenter().Text(facilityAddr).FontSize(9);
+                    col.Item().AlignCenter().Text(GT(facilityName)).Bold().FontSize(14);
+                    col.Item().AlignCenter().Text(GT(facilityAddr)).FontSize(9);
                     col.Item().PaddingVertical(4).LineHorizontal(1);
                     col.Item().PaddingTop(8);
-                    col.Item().AlignCenter().Text("LABORATORY REPORT").Bold().FontSize(13);
+                    col.Item().AlignCenter().Text(GT("LABORATORY REPORT")).Bold().FontSize(13);
                     col.Item().PaddingTop(5);
 
-                    col.Item().Row(r => { r.RelativeItem().Text($"Patient: {patient["name"]}"); r.RelativeItem().Text($"MRN: {patient["mrn"]}"); });
-                    col.Item().Row(r => { r.RelativeItem().Text($"DOB: {patient["dob"]}"); r.RelativeItem().Text($"Collection Date: {collectionDates[0]:MM/dd/yyyy}"); });
-                    col.Item().Row(r => { r.RelativeItem().Text($"Ordering Physician: Dr. {doctor}"); r.RelativeItem().Text($"Report Date: {collectionDates[^1].AddDays(1):MM/dd/yyyy}"); });
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"Patient: {patient["name"]}")); r.RelativeItem().Text(GT($"MRN: {patient["mrn"]}")); });
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"DOB: {patient["dob"]}")); r.RelativeItem().Text(GT($"Collection Date: {collectionDates[0]:MM/dd/yyyy}")); });
+                    col.Item().Row(r => { r.RelativeItem().Text(GT($"Ordering Physician: Dr. {doctor}")); r.RelativeItem().Text(GT($"Report Date: {collectionDates[^1].AddDays(1):MM/dd/yyyy}")); });
                     col.Item().PaddingTop(8);
 
                     if (multipage)
@@ -599,10 +619,10 @@ static class MedicalPdfGenerator
                             DrawLabTable(col, $"{panelName} - Collected {cd:MM/dd/yyyy}", panelLabs);
                         }
 
-                        col.Item().Text("CLINICAL INTERPRETATION").Bold().FontSize(11);
+                        col.Item().Text(GT("CLINICAL INTERPRETATION")).Bold().FontSize(11);
                         for (int i = 0; i < Rng.Next(2, 5); i++)
                         {
-                            col.Item().Text(ClinicalInterpretationParagraph());
+                            col.Item().Text(GT(ClinicalInterpretationParagraph()));
                             col.Item().PaddingTop(3);
                         }
                     }
@@ -613,9 +633,9 @@ static class MedicalPdfGenerator
                     }
 
                     col.Item().PaddingTop(3);
-                    col.Item().Text("H = High, L = Low. Results outside reference range are flagged.").Italic().FontSize(9);
+                    col.Item().Text(GT("H = High, L = Low. Results outside reference range are flagged.")).Italic().FontSize(9);
                     col.Item().PaddingTop(5);
-                    col.Item().Text($"Verified by: {Fake.Name.FullName()}, MD, Lab Director");
+                    col.Item().Text(GT($"Verified by: {Fake.Name.FullName()}, MD, Lab Director"));
                 });
             });
         }).GeneratePdf(filepath);
@@ -623,7 +643,7 @@ static class MedicalPdfGenerator
 
     static void DrawLabTable(ColumnDescriptor col, string title, (string Name, Func<string> ValueFn, string RefRange)[] labs)
     {
-        col.Item().Text(title).Bold().FontSize(11);
+        col.Item().Text(GT(title)).Bold().FontSize(11);
         col.Item().PaddingTop(2);
         col.Item().Table(table =>
         {
@@ -637,19 +657,20 @@ static class MedicalPdfGenerator
 
             table.Header(h =>
             {
-                h.Cell().Background(Colors.Grey.Lighten3).Border(0.5f).Padding(4).Text("Test").Bold();
-                h.Cell().Background(Colors.Grey.Lighten3).Border(0.5f).Padding(4).Text("Result").Bold();
-                h.Cell().Background(Colors.Grey.Lighten3).Border(0.5f).Padding(4).Text("Reference Range").Bold();
-                h.Cell().Background(Colors.Grey.Lighten3).Border(0.5f).Padding(4).Text("Flag").Bold();
+                h.Cell().Background(Colors.Grey.Lighten3).Border(0.5f).Padding(4).Text(GT("Test")).Bold();
+                h.Cell().Background(Colors.Grey.Lighten3).Border(0.5f).Padding(4).Text(GT("Result")).Bold();
+                h.Cell().Background(Colors.Grey.Lighten3).Border(0.5f).Padding(4).Text(GT("Reference Range")).Bold();
+                h.Cell().Background(Colors.Grey.Lighten3).Border(0.5f).Padding(4).Text(GT("Flag")).Bold();
             });
 
             foreach (var (name, valueFn, refRange) in labs)
             {
+                var val = valueFn();
                 var flag = Fake.PickRandom("", "", "", "H", "L", "H", "");
-                table.Cell().Border(0.5f).Padding(3).Text(name);
-                table.Cell().Border(0.5f).Padding(3).Text(valueFn());
-                table.Cell().Border(0.5f).Padding(3).Text(refRange);
-                table.Cell().Border(0.5f).Padding(3).Text(flag);
+                table.Cell().Border(0.5f).Padding(3).Text(GT(name));
+                table.Cell().Border(0.5f).Padding(3).Text(GT(val));
+                table.Cell().Border(0.5f).Padding(3).Text(GT(refRange));
+                table.Cell().Border(0.5f).Padding(3).Text(GT(flag));
             }
         });
         col.Item().PaddingTop(5);
@@ -676,33 +697,33 @@ static class MedicalPdfGenerator
 
                 page.Content().Column(col =>
                 {
-                    col.Item().AlignCenter().Text($"Dr. {doctor}").Bold().FontSize(14);
-                    col.Item().AlignCenter().Text(specialty);
-                    col.Item().AlignCenter().Text(EastCoastAddress()).FontSize(9);
-                    col.Item().AlignCenter().Text($"Phone: {EastCoastPhone()}  |  DEA#: {Fake.Random.Replace("??#######").ToUpper()}").FontSize(9);
-                    col.Item().AlignCenter().Text($"NPI: {Fake.Random.Number(1000000000, int.MaxValue)}").FontSize(9);
+                    col.Item().AlignCenter().Text(GT($"Dr. {doctor}")).Bold().FontSize(14);
+                    col.Item().AlignCenter().Text(GT(specialty));
+                    col.Item().AlignCenter().Text(GT(EastCoastAddress())).FontSize(9);
+                    col.Item().AlignCenter().Text(GT($"Phone: {EastCoastPhone()}  |  DEA#: {Fake.Random.Replace("??#######").ToUpper()}")).FontSize(9);
+                    col.Item().AlignCenter().Text(GT($"NPI: {Fake.Random.Number(1000000000, int.MaxValue)}")).FontSize(9);
                     col.Item().PaddingVertical(6).LineHorizontal(1);
                     col.Item().PaddingTop(12);
 
-                    col.Item().Text($"Date: {rxDate:MM/dd/yyyy}").FontSize(11);
-                    col.Item().Text($"Patient Name: {patient["name"]}").FontSize(11);
-                    col.Item().Text($"DOB: {patient["dob"]}    MRN: {patient["mrn"]}").FontSize(11);
-                    col.Item().Text($"Address: {patient["address"]}").FontSize(11);
+                    col.Item().Text(GT($"Date: {rxDate:MM/dd/yyyy}")).FontSize(11);
+                    col.Item().Text(GT($"Patient Name: {patient["name"]}")).FontSize(11);
+                    col.Item().Text(GT($"DOB: {patient["dob"]}    MRN: {patient["mrn"]}")).FontSize(11);
+                    col.Item().Text(GT($"Address: {patient["address"]}")).FontSize(11);
                     col.Item().PaddingTop(10);
 
-                    col.Item().Text("Rx").Bold().FontSize(24);
+                    col.Item().Text(GT("Rx")).Bold().FontSize(24);
                     col.Item().PaddingTop(5);
 
-                    col.Item().Text($"{med.Name} {med.Dose}").FontSize(13);
-                    col.Item().Text($"Sig: Take {med.Freq}").FontSize(13);
-                    col.Item().Text($"Qty: #{qty}    Refills: {refills}").FontSize(13);
-                    col.Item().Text($"DAW: {Fake.PickRandom("Yes", "No")}").FontSize(13);
+                    col.Item().Text(GT($"{med.Name} {med.Dose}")).FontSize(13);
+                    col.Item().Text(GT($"Sig: Take {med.Freq}")).FontSize(13);
+                    col.Item().Text(GT($"Qty: #{qty}    Refills: {refills}")).FontSize(13);
+                    col.Item().Text(GT($"DAW: {Fake.PickRandom("Yes", "No")}")).FontSize(13);
                     col.Item().PaddingTop(15);
 
                     col.Item().LineHorizontal(0.5f);
                     col.Item().PaddingTop(3);
-                    col.Item().Text($"Prescriber Signature: Dr. {doctor}");
-                    col.Item().Text($"Date: {rxDate:MM/dd/yyyy}");
+                    col.Item().Text(GT($"Prescriber Signature: Dr. {doctor}"));
+                    col.Item().Text(GT($"Date: {rxDate:MM/dd/yyyy}"));
                 });
             });
         }).GeneratePdf(filepath);
@@ -829,13 +850,13 @@ static class MedicalPdfGenerator
                 page.Content().Column(col =>
                 {
                     // Document header
-                    col.Item().AlignCenter().Text(facilityName).Bold().FontSize(14);
-                    col.Item().AlignCenter().Text(facilityAddr).FontSize(9);
-                    col.Item().AlignCenter().Text("CONSOLIDATED PATIENT RECORDS — CONFIDENTIAL").Bold().FontSize(11);
+                    col.Item().AlignCenter().Text(GT(facilityName)).Bold().FontSize(14);
+                    col.Item().AlignCenter().Text(GT(facilityAddr)).FontSize(9);
+                    col.Item().AlignCenter().Text(GT("CONSOLIDATED PATIENT RECORDS — CONFIDENTIAL")).Bold().FontSize(11);
                     col.Item().PaddingVertical(4).LineHorizontal(1);
                     col.Item().PaddingTop(3);
-                    col.Item().Text($"Report Generated: {DateTime.Now:MM/dd/yyyy hh:mm tt}").FontSize(9);
-                    col.Item().Text($"Boundary Interval: {pagesPerPatient} page(s) per patient block").FontSize(9).Italic();
+                    col.Item().Text(GT($"Report Generated: {DateTime.Now:MM/dd/yyyy hh:mm tt}")).FontSize(9);
+                    col.Item().Text(GT($"Boundary Interval: {pagesPerPatient} page(s) per patient block")).FontSize(9).Italic();
                     col.Item().PaddingTop(5);
 
                     for (int p = 0; p < patientCount; p++)
@@ -851,40 +872,40 @@ static class MedicalPdfGenerator
                         // ── Patient header & demographics ──
                         col.Item().PaddingTop(3).LineHorizontal(2);
                         col.Item().PaddingTop(3);
-                        col.Item().Text($"PATIENT {p + 1} OF {patientCount}").Bold().FontSize(12);
+                        col.Item().Text(GT($"PATIENT {p + 1} OF {patientCount}")).Bold().FontSize(12);
                         col.Item().PaddingTop(3);
-                        col.Item().Row(r => { r.RelativeItem().Text($"Name: {patient["name"]}").Bold(); r.RelativeItem().Text($"MRN: {patient["mrn"]}"); });
-                        col.Item().Row(r => { r.RelativeItem().Text($"DOB: {patient["dob"]}"); r.RelativeItem().Text($"SSN: {patient["ssn"]}"); });
-                        col.Item().Row(r => { r.RelativeItem().Text($"Address: {patient["address"]}"); r.RelativeItem().Text($"Phone: {patient["phone"]}"); });
-                        col.Item().Row(r => { r.RelativeItem().Text($"Insurance: {patient["insurance_id"]}"); r.RelativeItem().Text($"Attending: Dr. {doctor}"); });
-                        col.Item().Row(r => { r.RelativeItem().Text($"Admitted: {admitDate:MM/dd/yyyy}"); r.RelativeItem().Text($"Discharged: {dischargeDate:MM/dd/yyyy}"); });
+                        col.Item().Row(r => { r.RelativeItem().Text(GT($"Name: {patient["name"]}")).Bold(); r.RelativeItem().Text(GT($"MRN: {patient["mrn"]}")); });
+                        col.Item().Row(r => { r.RelativeItem().Text(GT($"DOB: {patient["dob"]}")); r.RelativeItem().Text(GT($"SSN: {patient["ssn"]}")); });
+                        col.Item().Row(r => { r.RelativeItem().Text(GT($"Address: {patient["address"]}")); r.RelativeItem().Text(GT($"Phone: {patient["phone"]}")); });
+                        col.Item().Row(r => { r.RelativeItem().Text(GT($"Insurance: {patient["insurance_id"]}")); r.RelativeItem().Text(GT($"Attending: Dr. {doctor}")); });
+                        col.Item().Row(r => { r.RelativeItem().Text(GT($"Admitted: {admitDate:MM/dd/yyyy}")); r.RelativeItem().Text(GT($"Discharged: {dischargeDate:MM/dd/yyyy}")); });
                         col.Item().PaddingTop(3);
 
                         // Vitals
-                        col.Item().Text("VITALS").Bold();
-                        col.Item().Text($"BP: {vitals["blood_pressure"]}  HR: {vitals["heart_rate"]}  Temp: {vitals["temperature"]}  SpO2: {vitals["oxygen_saturation"]}  RR: {vitals["respiratory_rate"]}");
+                        col.Item().Text(GT("VITALS")).Bold();
+                        col.Item().Text(GT($"BP: {vitals["blood_pressure"]}  HR: {vitals["heart_rate"]}  Temp: {vitals["temperature"]}  SpO2: {vitals["oxygen_saturation"]}  RR: {vitals["respiratory_rate"]}"));
                         col.Item().PaddingTop(3);
 
                         // Diagnoses
-                        col.Item().Text("DIAGNOSES").Bold();
+                        col.Item().Text(GT("DIAGNOSES")).Bold();
                         foreach (var dx in diagnoses)
-                            col.Item().Text($"  • {dx}");
+                            col.Item().Text(GT($"  • {dx}"));
                         col.Item().PaddingTop(3);
 
                         // Medications
-                        col.Item().Text("MEDICATIONS").Bold();
+                        col.Item().Text(GT("MEDICATIONS")).Bold();
                         foreach (var med in meds)
-                            col.Item().Text($"  • {med.Name} {med.Dose} — {med.Freq}");
+                            col.Item().Text(GT($"  • {med.Name} {med.Dose} — {med.Freq}"));
                         col.Item().PaddingTop(3);
 
                         // ── Filler: hospital course narrative to push toward page boundary ──
-                        col.Item().Text("HOSPITAL COURSE").Bold();
+                        col.Item().Text(GT("HOSPITAL COURSE")).Bold();
                         var fillerLines = Math.Max(fillerNeeded, 5);
                         var fillerText = new List<string>();
                         while (fillerText.Count < fillerLines)
                             fillerText.AddRange(Fake.PickRandom(FillerNarrative, Math.Min(8, fillerLines - fillerText.Count)));
                         foreach (var line in fillerText.Take(fillerLines))
-                            col.Item().Text(line);
+                            col.Item().Text(GT(line));
                         col.Item().PaddingTop(3);
 
                         // ── SENSITIVE CONTENT — deliberately at page boundary ──
@@ -896,61 +917,61 @@ static class MedicalPdfGenerator
                         switch (sensitiveType)
                         {
                             case 0: // Substance abuse
-                                col.Item().Text("SUBSTANCE ABUSE & ADDICTION ASSESSMENT").Bold();
-                                col.Item().Text($"Patient: {patient["name"]}  SSN: {patient["ssn"]}  MRN: {patient["mrn"]}");
+                                col.Item().Text(GT("SUBSTANCE ABUSE & ADDICTION ASSESSMENT")).Bold();
+                                col.Item().Text(GT($"Patient: {patient["name"]}  SSN: {patient["ssn"]}  MRN: {patient["mrn"]}"));
                                 foreach (var note in Fake.PickRandom(SubstanceAbuseNotes, Rng.Next(4, 7)))
-                                    col.Item().Text(note);
-                                col.Item().Text($"Assessed by: Dr. {Fake.Name.FullName()}, Addiction Medicine");
-                                col.Item().Text("42 CFR Part 2 protected information — unauthorized disclosure prohibited.");
+                                    col.Item().Text(GT(note));
+                                col.Item().Text(GT($"Assessed by: Dr. {Fake.Name.FullName()}, Addiction Medicine"));
+                                col.Item().Text(GT("42 CFR Part 2 protected information — unauthorized disclosure prohibited."));
                                 break;
 
                             case 1: // Mental health
-                                col.Item().Text("PSYCHIATRIC EVALUATION & MENTAL HEALTH NOTES").Bold();
-                                col.Item().Text($"Patient: {patient["name"]}  DOB: {patient["dob"]}  SSN: {patient["ssn"]}");
+                                col.Item().Text(GT("PSYCHIATRIC EVALUATION & MENTAL HEALTH NOTES")).Bold();
+                                col.Item().Text(GT($"Patient: {patient["name"]}  DOB: {patient["dob"]}  SSN: {patient["ssn"]}"));
                                 foreach (var note in Fake.PickRandom(MentalHealthNotes, Rng.Next(4, 7)))
-                                    col.Item().Text(note);
-                                col.Item().Text($"Evaluating Psychiatrist: Dr. {Fake.Name.FullName()}, MD, Board Certified Psychiatry");
-                                col.Item().Text("Protected mental health information per state and federal law.");
+                                    col.Item().Text(GT(note));
+                                col.Item().Text(GT($"Evaluating Psychiatrist: Dr. {Fake.Name.FullName()}, MD, Board Certified Psychiatry"));
+                                col.Item().Text(GT("Protected mental health information per state and federal law."));
                                 break;
 
                             case 2: // HIV/STI
-                                col.Item().Text("HIV/STI SCREENING & TREATMENT NOTES").Bold();
-                                col.Item().Text($"Patient: {patient["name"]}  MRN: {patient["mrn"]}  Insurance: {patient["insurance_id"]}");
+                                col.Item().Text(GT("HIV/STI SCREENING & TREATMENT NOTES")).Bold();
+                                col.Item().Text(GT($"Patient: {patient["name"]}  MRN: {patient["mrn"]}  Insurance: {patient["insurance_id"]}"));
                                 foreach (var note in Fake.PickRandom(HivStiNotes, Rng.Next(4, 6)))
-                                    col.Item().Text(note);
-                                col.Item().Text($"Infectious Disease Consult: Dr. {Fake.Name.FullName()}");
-                                col.Item().Text("HIV-related information protected under state confidentiality statutes.");
+                                    col.Item().Text(GT(note));
+                                col.Item().Text(GT($"Infectious Disease Consult: Dr. {Fake.Name.FullName()}"));
+                                col.Item().Text(GT("HIV-related information protected under state confidentiality statutes."));
                                 break;
 
                             case 3: // Genetic testing
-                                col.Item().Text("GENETIC TESTING RESULTS & COUNSELING NOTES").Bold();
-                                col.Item().Text($"Patient: {patient["name"]}  DOB: {patient["dob"]}  SSN: {patient["ssn"]}");
+                                col.Item().Text(GT("GENETIC TESTING RESULTS & COUNSELING NOTES")).Bold();
+                                col.Item().Text(GT($"Patient: {patient["name"]}  DOB: {patient["dob"]}  SSN: {patient["ssn"]}"));
                                 foreach (var note in Fake.PickRandom(GeneticTestingNotes, Rng.Next(3, 6)))
-                                    col.Item().Text(note);
-                                col.Item().Text($"Genetic Counselor: {Fake.Name.FullName()}, MS, CGC");
-                                col.Item().Text("GINA-protected genetic information — disclosure restrictions apply.");
+                                    col.Item().Text(GT(note));
+                                col.Item().Text(GT($"Genetic Counselor: {Fake.Name.FullName()}, MS, CGC"));
+                                col.Item().Text(GT("GINA-protected genetic information — disclosure restrictions apply."));
                                 break;
 
                             case 4: // Domestic violence
-                                col.Item().Text("DOMESTIC VIOLENCE / INTIMATE PARTNER VIOLENCE SCREENING").Bold();
-                                col.Item().Text($"Patient: {patient["name"]}  Address: {patient["address"]}  Phone: {patient["phone"]}");
+                                col.Item().Text(GT("DOMESTIC VIOLENCE / INTIMATE PARTNER VIOLENCE SCREENING")).Bold();
+                                col.Item().Text(GT($"Patient: {patient["name"]}  Address: {patient["address"]}  Phone: {patient["phone"]}"));
                                 foreach (var note in Fake.PickRandom(DomesticViolenceNotes, Rng.Next(3, 5)))
-                                    col.Item().Text(note);
-                                col.Item().Text($"Screened by: {Fake.Name.FullName()}, LCSW");
-                                col.Item().Text("Sensitive domestic violence documentation — restricted access per hospital policy.");
+                                    col.Item().Text(GT(note));
+                                col.Item().Text(GT($"Screened by: {Fake.Name.FullName()}, LCSW"));
+                                col.Item().Text(GT("Sensitive domestic violence documentation — restricted access per hospital policy."));
                                 break;
                         }
 
                         col.Item().PaddingTop(2);
-                        col.Item().Text($"— End of record for {patient["name"]} (MRN: {patient["mrn"]}) —").Italic().FontSize(9);
+                        col.Item().Text(GT($"— End of record for {patient["name"]} (MRN: {patient["mrn"]}) —")).Italic().FontSize(9);
                         // NO page break — next patient starts immediately to create commingling
                         col.Item().PaddingTop(3);
                     }
 
                     col.Item().PaddingTop(10).LineHorizontal(2);
                     col.Item().PaddingTop(3);
-                    col.Item().Text("END OF CONSOLIDATED PATIENT RECORDS").Bold().AlignCenter();
-                    col.Item().Text($"Total patients: {patientCount}  |  Generated: {DateTime.Now:MM/dd/yyyy}").AlignCenter().FontSize(9);
+                    col.Item().Text(GT("END OF CONSOLIDATED PATIENT RECORDS")).Bold().AlignCenter();
+                    col.Item().Text(GT($"Total patients: {patientCount}  |  Generated: {DateTime.Now:MM/dd/yyyy}")).AlignCenter().FontSize(9);
                 });
             });
         }).GeneratePdf(filepath);

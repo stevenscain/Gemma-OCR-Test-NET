@@ -1,0 +1,176 @@
+Rolfson - Becker Laboratory Services
+4606 Cedar Ln, Philadelphia, PA 19140
+LABORATORY REPORT
+Patient: Fermin Kovacek
+MRN: MRN-17284361
+DOB: 03/20/1967
+Collection Date: 04/10/2026
+Ordering Physician: Dr. Ignacio Reichel
+Report Date: 04/15/2026
+COMPLETE BLOOD COUNT (CBC) - Collected 04/10/2026
+Test
+Result
+Reference Range
+Flag
+WBC
+8.0 K/uL
+4.5-11.0 K/uL
+
+RBC
+5.22 M/uL
+4.5-5.5 M/uL
+
+Hemoglobin
+13.8 g/dL
+12.0-17.5 g/dL
+L
+Hematocrit
+54.7%
+36-46%
+H
+MCV
+72.6 fL
+80-100 fL
+
+MCH
+31.3 pg
+27-33 pg
+H
+MCHC
+31.0 g/dL
+32-36 g/dL
+L
+Platelet Count
+160 K/uL
+150-400 K/uL
+H
+MPV
+10.2 fL
+7.5-11.5 fL
+
+COMPREHENSIVE METABOLIC PANEL (CMP) - Collected 04/11/2026
+Test
+Result
+Reference Range
+Flag
+Glucose, Fasting
+72 mg/dL
+70-100 mg/dL
+H
+BUN
+37 mg/dL
+7-20 mg/dL
+
+Creatinine
+1.57 mg/dL
+0.7-1.3 mg/dL
+
+eGFR
+34 mL/min
+>60 mL/min
+H
+Sodium
+148 mEq/L
+136-145 mEq/L
+
+Potassium
+3.4 mEq/L
+3.5-5.0 mEq/L
+H
+Chloride
+95 mEq/L
+98-106 mEq/L
+L
+CO2
+27 mEq/L
+23-29 mEq/L
+H
+Calcium
+8.0 mg/dL
+8.5-10.5 mg/dL
+
+Total Protein
+5.9 g/dL
+6.0-8.3 g/dL
+
+Albumin
+3.7 g/dL
+3.5-5.5 g/dL
+
+Bilirubin, Total
+0.9 mg/dL
+0.1-1.2 mg/dL
+L
+ALP
+97 U/L
+44-147 U/L
+
+AST
+146 U/L
+10-40 U/L
+L
+ALT
+31 U/L
+7-56 U/L
+L
+LIPID PANEL - Collected 04/12/2026
+Test
+Result
+Reference Range
+Flag
+Total Cholesterol
+246 mg/dL
+<200 mg/dL
+
+LDL Cholesterol
+57 mg/dL
+<100 mg/dL
+
+HDL Cholesterol
+39 mg/dL
+>40 mg/dL
+
+Triglycerides
+322 mg/dL
+<150 mg/dL
+
+VLDL Cholesterol
+51 mg/dL
+5-40 mg/dL
+
+THYROID PANEL - Collected 04/13/2026
+Test
+Result
+Reference Range
+Flag
+TSH
+3.82 mIU/L
+0.4-4.0 mIU/L
+H
+Free T4
+2.46 ng/dL
+0.8-1.8 ng/dL
+L
+Free T3
+2.8 pg/mL
+2.3-4.2 pg/mL
+H
+HEMOGLOBIN A1C - Collected 04/14/2026
+Test
+Result
+Reference Range
+Flag
+Hemoglobin A1c
+4.8%
+4.0-5.6%
+
+Estimated Avg Glucose
+108 mg/dL
+70-126 mg/dL
+
+CLINICAL INTERPRETATION
+Liver function tests are within normal limits with no evidence of hepatocellular injury or cholestasis. TSH is suppressed with elevated free T4, consistent with primary hyperthyroidism; endocrinology referral recommended. Hemoglobin A1c is above target, suggesting suboptimal glycemic control over the preceding 3 months.
+Albumin is mildly decreased, suggesting possible nutritional deficiency or protein-losing process; clinical correlation advised. Fasting glucose is elevated above the normal threshold; correlation with clinical history and repeat testing recommended. TSH is suppressed with elevated free T4, consistent with primary hyperthyroidism; endocrinology referral recommended.
+Liver function tests are within normal limits with no evidence of hepatocellular injury or cholestasis. The comprehensive metabolic panel reveals an elevated creatinine and BUN consistent with acute kidney injury; trending recommended. The complete blood count demonstrates a leukocytosis consistent with an acute infectious or inflammatory process.
+H = High, L = Low. Results outside reference range are flagged.
+Verified by: Zetta Erdman, MD, Lab Director

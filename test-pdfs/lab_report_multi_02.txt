@@ -1,0 +1,163 @@
+Wilderman, Stamm and Dare Laboratory Services
+3456 Park Ave, Pittsburgh, PA 15260
+LABORATORY REPORT
+Patient: Elinore Grady
+MRN: MRN-34857088
+DOB: 12/10/1968
+Collection Date: 04/10/2026
+Ordering Physician: Dr. Breana Walsh
+Report Date: 04/14/2026
+COMPLETE BLOOD COUNT (CBC) - Collected 04/10/2026
+Test
+Result
+Reference Range
+Flag
+WBC
+7.5 K/uL
+4.5-11.0 K/uL
+
+RBC
+5.06 M/uL
+4.5-5.5 M/uL
+
+Hemoglobin
+14.7 g/dL
+12.0-17.5 g/dL
+
+Hematocrit
+32.0%
+36-46%
+
+MCV
+83.7 fL
+80-100 fL
+
+MCH
+34.1 pg
+27-33 pg
+
+MCHC
+30.6 g/dL
+32-36 g/dL
+H
+Platelet Count
+116 K/uL
+150-400 K/uL
+H
+MPV
+7.8 fL
+7.5-11.5 fL
+H
+COMPREHENSIVE METABOLIC PANEL (CMP) - Collected 04/11/2026
+Test
+Result
+Reference Range
+Flag
+Glucose, Fasting
+109 mg/dL
+70-100 mg/dL
+
+BUN
+23 mg/dL
+7-20 mg/dL
+H
+Creatinine
+1.76 mg/dL
+0.7-1.3 mg/dL
+
+eGFR
+22 mL/min
+>60 mL/min
+
+Sodium
+140 mEq/L
+136-145 mEq/L
+L
+Potassium
+3.6 mEq/L
+3.5-5.0 mEq/L
+H
+Chloride
+101 mEq/L
+98-106 mEq/L
+L
+CO2
+20 mEq/L
+23-29 mEq/L
+
+Calcium
+10.5 mg/dL
+8.5-10.5 mg/dL
+
+Total Protein
+5.5 g/dL
+6.0-8.3 g/dL
+H
+Albumin
+5.4 g/dL
+3.5-5.5 g/dL
+
+Bilirubin, Total
+0.9 mg/dL
+0.1-1.2 mg/dL
+
+ALP
+166 U/L
+44-147 U/L
+L
+AST
+110 U/L
+10-40 U/L
+
+ALT
+98 U/L
+7-56 U/L
+H
+LIPID PANEL - Collected 04/12/2026
+Test
+Result
+Reference Range
+Flag
+Total Cholesterol
+194 mg/dL
+<200 mg/dL
+
+LDL Cholesterol
+191 mg/dL
+<100 mg/dL
+
+HDL Cholesterol
+81 mg/dL
+>40 mg/dL
+H
+Triglycerides
+177 mg/dL
+<150 mg/dL
+
+VLDL Cholesterol
+59 mg/dL
+5-40 mg/dL
+L
+THYROID PANEL - Collected 04/13/2026
+Test
+Result
+Reference Range
+Flag
+TSH
+0.16 mIU/L
+0.4-4.0 mIU/L
+H
+Free T4
+1.98 ng/dL
+0.8-1.8 ng/dL
+
+Free T3
+4.5 pg/mL
+2.3-4.2 pg/mL
+
+CLINICAL INTERPRETATION
+Potassium is at the lower limit of normal; oral supplementation and repeat level in 1-2 days advised. Critical values, if any, were communicated directly to the ordering provider per laboratory policy. Creatinine has trended downward compared to prior values, suggesting improvement in renal function with treatment. TSH is suppressed with elevated free T4, consistent with primary hyperthyroidism; endocrinology referral recommended. Triglycerides are significantly elevated; lifestyle modification including dietary fat restriction and increased aerobic activity recommended.
+Hemoglobin is below the lower limit of normal, consistent with mild normocytic anemia; further workup including iron studies and reticulocyte count is recommended. The lipid panel demonstrates elevated LDL cholesterol above goal; intensification of statin therapy is indicated. The comprehensive metabolic panel reveals an elevated creatinine and BUN consistent with acute kidney injury; trending recommended.
+These results have been reviewed by the laboratory director and are consistent with the clinical diagnosis. Creatinine has trended downward compared to prior values, suggesting improvement in renal function with treatment. The lipid panel demonstrates elevated LDL cholesterol above goal; intensification of statin therapy is indicated. Hemoglobin A1c is above target, suggesting suboptimal glycemic control over the preceding 3 months.
+H = High, L = Low. Results outside reference range are flagged.
+Verified by: Madyson O'Kon, MD, Lab Director

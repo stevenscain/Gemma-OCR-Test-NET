@@ -1,0 +1,36 @@
+Cummerata Inc Medical Center
+5717 University Pkwy, Philadelphia, PA 19111
+Phone: (215) 351-2382  |  Fax: (860) 664-5835
+DISCHARGE SUMMARY
+PATIENT INFORMATION
+Patient Name: Alexis Walker
+MRN: MRN-83818641
+Date of Birth: 08/11/1977
+Insurance ID: INS-1520839308
+Admission Date: 04/11/2026
+Discharge Date: 04/23/2026
+Attending Physician: Dr. Alia Becker
+VITALS AT DISCHARGE
+BP: 130/85 mmHg
+HR: 63 bpm
+Temp: 100.0 F
+SpO2: 92%
+Resp Rate: 21 breaths/min
+Weight: 163 lbs
+DIAGNOSES
+  1. Essential Hypertension (I10)
+  2. Osteoarthritis, unspecified (M19.90)
+  3. Hyperlipidemia (E78.5)
+  4. Gastroesophageal Reflux Disease (K21.0)
+HOSPITAL COURSE
+Patient was admitted via the emergency department following abdominal pain with nausea and vomiting. Nephrology was consulted for acute kidney injury with recommendations to hold nephrotoxic agents. Social work was involved to assist with discharge planning and community resource coordination. Case management coordinated a home health referral for post-discharge wound care and medication compliance. By hospital day five, the patient met discharge criteria with stable vitals and tolerating oral intake. Home medications were reviewed and held or adjusted as clinically indicated.
+DISCHARGE MEDICATIONS
+  1. Atorvastatin 20mg - once daily at bedtime
+  2. Amoxicillin 500mg - three times daily for 10 days
+  3. Hydrochlorothiazide 25mg - once daily
+  4. Levothyroxine 75mcg - once daily on empty stomach
+  5. Gabapentin 300mg - three times daily
+FOLLOW-UP INSTRUCTIONS
+Follow up with Dr. Alia Becker on 05/11/2026. Home blood pressure monitoring is recommended with log to be brought to follow-up appointment. Emergency contact information and after-hours nurse line number provided to patient and family. The patient is instructed to weigh themselves daily and call the office if weight increases by more than 3 lbs in 24 hours.
+Electronically signed by Dr. Alia Becker
+Date: 04/23/2026 06:41 PM
