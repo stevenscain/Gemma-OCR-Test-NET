@@ -1,0 +1,15 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+
+## Visual Studio
+.vs/
+
+## Copilot
+CopilotIndices/
+
+## OS
+Thumbs.db
+.DS_Store
