@@ -1,5 +1,7 @@
 # Gemma OCR Test (.NET)
 
+> **Quick prototype** — tested locally with [Gemma 4 (e4b)](https://ollama.com/library/gemma4:e4b) running on Ollama. This is an exploratory spike, not production code.
+
 An end-to-end OCR accuracy testing suite built entirely in .NET. Generates synthetic medical PDFs with known ground-truth text, degrades them to simulate real-world scan quality, runs OCR via a local Ollama vision model, and reports accuracy metrics.
 
 ## Prerequisites
