@@ -8,8 +8,57 @@ MedicalPdfGenerator.Run();
 
 static class MedicalPdfGenerator
 {
-    static readonly Faker Fake = new();
+    static readonly Faker Fake = new("en");
     static readonly Random Rng = new();
+
+    // ── East Coast US locations ───────────────────────────────────────────
+
+    static readonly (string City, string State, string Abbr, string[] Zips, string[] AreaCodes)[] EastCoastCities =
+    [
+        ("New York", "New York", "NY", ["10001", "10016", "10029", "10032", "10065"], ["212", "718", "917"]),
+        ("Boston", "Massachusetts", "MA", ["02114", "02115", "02118", "02120", "02215"], ["617", "857"]),
+        ("Philadelphia", "Pennsylvania", "PA", ["19104", "19107", "19111", "19120", "19140"], ["215", "267"]),
+        ("Baltimore", "Maryland", "MD", ["21201", "21205", "21218", "21224", "21231"], ["410", "443"]),
+        ("Washington", "District of Columbia", "DC", ["20001", "20007", "20010", "20037", "20052"], ["202"]),
+        ("Charlotte", "North Carolina", "NC", ["28202", "28204", "28207", "28210", "28216"], ["704", "980"]),
+        ("Raleigh", "North Carolina", "NC", ["27601", "27603", "27607", "27609", "27612"], ["919", "984"]),
+        ("Richmond", "Virginia", "VA", ["23219", "23220", "23225", "23230", "23298"], ["804"]),
+        ("Atlanta", "Georgia", "GA", ["30303", "30308", "30312", "30322", "30342"], ["404", "678", "770"]),
+        ("Miami", "Florida", "FL", ["33101", "33125", "33136", "33140", "33155"], ["305", "786"]),
+        ("Jacksonville", "Florida", "FL", ["32099", "32204", "32207", "32209", "32216"], ["904"]),
+        ("Pittsburgh", "Pennsylvania", "PA", ["15213", "15219", "15224", "15232", "15260"], ["412"]),
+        ("Newark", "New Jersey", "NJ", ["07102", "07103", "07104", "07107", "07112"], ["973", "862"]),
+        ("Hartford", "Connecticut", "CT", ["06103", "06105", "06106", "06112", "06120"], ["860", "959"]),
+        ("Charleston", "South Carolina", "SC", ["29401", "29403", "29407", "29412", "29425"], ["843"]),
+        ("Savannah", "Georgia", "GA", ["31401", "31404", "31405", "31406", "31419"], ["912"]),
+        ("Portland", "Maine", "ME", ["04101", "04102", "04103", "04106"], ["207"]),
+        ("Providence", "Rhode Island", "RI", ["02903", "02904", "02906", "02908"], ["401"]),
+    ];
+
+    static readonly string[] EastCoastStreets =
+    [
+        "Main St", "Elm St", "Oak Ave", "Maple Dr", "Cedar Ln", "Pine St",
+        "Washington Blvd", "Park Ave", "Church St", "Broad St", "Market St",
+        "Peachtree Rd", "Atlantic Ave", "Commonwealth Ave", "Beacon St",
+        "Chestnut St", "Walnut St", "Spruce St", "King St", "Meeting St",
+        "Memorial Dr", "University Pkwy", "Hospital Dr", "Medical Center Blvd",
+    ];
+
+    static string EastCoastAddress()
+    {
+        var city = Fake.PickRandom(EastCoastCities);
+        var number = Rng.Next(100, 9999);
+        var street = Fake.PickRandom(EastCoastStreets);
+        var zip = Fake.PickRandom(city.Zips);
+        return $"{number} {street}, {city.City}, {city.Abbr} {zip}";
+    }
+
+    static string EastCoastPhone()
+    {
+        var city = Fake.PickRandom(EastCoastCities);
+        var ac = Fake.PickRandom(city.AreaCodes);
+        return $"({ac}) {Rng.Next(200, 999):D3}-{Rng.Next(1000, 9999):D4}";
+    }
 
     public static void Run()
     {
@@ -35,6 +84,16 @@ static class MedicalPdfGenerator
         Generate("discharge_summary_multi", 2, true, MakeDischargeSummary);
         Generate("lab_report_multi", 2, true, MakeLabReport);
 
+        // Commingled stress tests — sensitive content placed at page boundaries
+        foreach (var interval in new[] { 1, 2, 3 })
+        {
+            var filename = $"commingled_boundary_{interval}pg.pdf";
+            var filepath = Path.Combine(outputDir, filename);
+            MakeCommingledStressTest(filepath, pagesPerPatient: interval, patientCount: 6);
+            Console.WriteLine($"Generated: {filepath}");
+            total++;
+        }
+
         Console.WriteLine($"\nDone! Generated {total} synthetic medical PDFs in '{outputDir}/'");
     }
 
@@ -45,8 +104,8 @@ static class MedicalPdfGenerator
         ["name"] = Fake.Name.FullName(),
         ["dob"] = Fake.Date.Past(72, DateTime.Now.AddYears(-18)).ToString("MM/dd/yyyy"),
         ["ssn"] = Fake.Random.Replace("###-##-####"),
-        ["address"] = Fake.Address.FullAddress(),
-        ["phone"] = Fake.Phone.PhoneNumber(),
+        ["address"] = EastCoastAddress(),
+        ["phone"] = EastCoastPhone(),
         ["mrn"] = $"MRN-{Fake.Random.Number(10000000, 99999999)}",
         ["insurance_id"] = $"INS-{Fake.Random.Long(1000000000, 9999999999)}",
     };
@@ -384,9 +443,9 @@ static class MedicalPdfGenerator
         var meds = Fake.PickRandom(Medications, multipage ? Rng.Next(6, 11) : Rng.Next(3, 7)).ToList();
 
         var facilityName = Fake.Company.CompanyName() + " Medical Center";
-        var facilityAddr = Fake.Address.FullAddress();
-        var facilityPhone = Fake.Phone.PhoneNumber();
-        var facilityFax = Fake.Phone.PhoneNumber();
+        var facilityAddr = EastCoastAddress();
+        var facilityPhone = EastCoastPhone();
+        var facilityFax = EastCoastPhone();
 
         Document.Create(container =>
         {
@@ -502,7 +561,7 @@ static class MedicalPdfGenerator
         var patient = GeneratePatientInfo();
         var doctor = Fake.Name.FullName();
         var facilityName = Fake.Company.CompanyName() + " Laboratory Services";
-        var facilityAddr = Fake.Address.FullAddress();
+        var facilityAddr = EastCoastAddress();
 
         var numPanels = multipage ? Rng.Next(3, 6) : 1;
         var baseDate = Fake.Date.Past(0, DateTime.Now.AddDays(-3));
@@ -619,8 +678,8 @@ static class MedicalPdfGenerator
                 {
                     col.Item().AlignCenter().Text($"Dr. {doctor}").Bold().FontSize(14);
                     col.Item().AlignCenter().Text(specialty);
-                    col.Item().AlignCenter().Text(Fake.Address.FullAddress()).FontSize(9);
-                    col.Item().AlignCenter().Text($"Phone: {Fake.Phone.PhoneNumber()}  |  DEA#: {Fake.Random.Replace("??#######").ToUpper()}").FontSize(9);
+                    col.Item().AlignCenter().Text(EastCoastAddress()).FontSize(9);
+                    col.Item().AlignCenter().Text($"Phone: {EastCoastPhone()}  |  DEA#: {Fake.Random.Replace("??#######").ToUpper()}").FontSize(9);
                     col.Item().AlignCenter().Text($"NPI: {Fake.Random.Number(1000000000, int.MaxValue)}").FontSize(9);
                     col.Item().PaddingVertical(6).LineHorizontal(1);
                     col.Item().PaddingTop(12);
@@ -644,6 +703,254 @@ static class MedicalPdfGenerator
                     col.Item().PaddingTop(3);
                     col.Item().Text($"Prescriber Signature: Dr. {doctor}");
                     col.Item().Text($"Date: {rxDate:MM/dd/yyyy}");
+                });
+            });
+        }).GeneratePdf(filepath);
+    }
+
+    // ── Sensitive content for stress tests ────────────────────────────────────
+
+    static readonly string[] SubstanceAbuseNotes =
+    [
+        "Patient has a documented history of alcohol use disorder, moderate severity, currently in early remission per DSM-5 criteria (F10.20).",
+        "Urine drug screen on admission was positive for benzodiazepines and opioids; patient reports prescribed use only.",
+        "Patient admitted to daily cannabis use for the past 3 years; counseled on cessation and referred to addiction services.",
+        "History of intravenous heroin use with last reported use 6 months prior to admission; Hepatitis C antibody positive.",
+        "Methadone maintenance therapy continued at 80mg daily during hospitalization per outpatient opioid treatment program.",
+        "CAGE questionnaire score of 3/4; patient acknowledges problematic alcohol consumption averaging 12-15 drinks per week.",
+        "Naloxone rescue kit prescribed at discharge given history of opioid use disorder; patient and family educated on administration.",
+        "Patient previously completed 28-day residential treatment program for cocaine dependence; reports 14 months of sobriety.",
+        "AUDIT-C score of 8 indicates hazardous drinking pattern; brief intervention performed with motivational interviewing techniques.",
+        "Buprenorphine/naloxone (Suboxone) 8mg/2mg sublingual film initiated for opioid use disorder during this admission.",
+    ];
+
+    static readonly string[] MentalHealthNotes =
+    [
+        "Patient carries an active diagnosis of Bipolar I Disorder with psychotic features (F31.2); lithium levels monitored during admission.",
+        "PHQ-9 score of 22 on admission consistent with severe major depressive episode; psychiatric consultation requested.",
+        "Patient reports active suicidal ideation with plan but no intent; 1:1 safety observation initiated per hospital protocol.",
+        "History of three prior psychiatric hospitalizations for acute mania with grandiose delusions and decreased need for sleep.",
+        "Patient diagnosed with Posttraumatic Stress Disorder (F43.10) secondary to military combat exposure; nightmares and hypervigilance reported.",
+        "Schizoaffective disorder, depressive type, managed with paliperidone palmitate (Invega Sustenna) 156mg IM monthly.",
+        "Patient endorsed auditory hallucinations described as commanding voices; antipsychotic medication adjusted accordingly.",
+        "Psychiatric advance directive on file designating spouse as healthcare agent for mental health treatment decisions.",
+        "Eating disorder history documented: anorexia nervosa, restricting type, with BMI of 16.2 on admission; nutrition consult placed.",
+        "Patient has documented history of self-harm behavior including cutting; last episode reported 3 weeks prior to admission.",
+    ];
+
+    static readonly string[] HivStiNotes =
+    [
+        "Patient is HIV-positive, diagnosed in 2019, currently on antiretroviral therapy: Biktarvy (bictegravir/emtricitabine/tenofovir alafenamide) daily.",
+        "CD4 count obtained during admission: 485 cells/mm3; viral load undetectable (<20 copies/mL) confirming virologic suppression.",
+        "HIV genotype resistance testing performed; no major resistance mutations identified on current regimen.",
+        "RPR reactive with titer of 1:64; confirmatory FTA-ABS positive consistent with secondary syphilis; IM penicillin G administered.",
+        "Gonorrhea and chlamydia NAAT screening performed on pharyngeal, rectal, and urogenital specimens; results pending at discharge.",
+        "Patient reports inconsistent condom use with multiple sexual partners; PrEP counseling provided and referral to sexual health clinic.",
+        "Hepatitis B surface antigen positive; HBV DNA viral load of 45,000 IU/mL; hepatology referral for treatment initiation.",
+        "Patient diagnosed with genital herpes simplex virus type 2; valacyclovir 1g BID initiated for acute outbreak management.",
+    ];
+
+    static readonly string[] GeneticTestingNotes =
+    [
+        "BRCA1 pathogenic variant identified (c.5266dupC); patient referred to genetic counselor and surgical oncology for risk-reducing options.",
+        "Pharmacogenomic testing revealed CYP2D6 poor metabolizer status; codeine and tramadol contraindicated per FDA labeling.",
+        "Huntington disease predictive testing: CAG repeat expansion of 42 repeats identified; presymptomatic genetic counseling provided.",
+        "Lynch syndrome confirmed: MSH2 pathogenic variant detected; enhanced colorectal and endometrial cancer surveillance recommended.",
+        "Factor V Leiden heterozygous mutation identified; lifelong anticoagulation therapy discussed given recurrent VTE history.",
+        "Whole exome sequencing identified pathogenic variant in CFTR gene consistent with cystic fibrosis carrier status.",
+        "Hereditary hemochromatosis: HFE C282Y homozygous genotype confirmed; therapeutic phlebotomy schedule initiated.",
+    ];
+
+    static readonly string[] DomesticViolenceNotes =
+    [
+        "Intimate partner violence screening positive; patient reports physical abuse by current partner occurring 2-3 times monthly.",
+        "Safety assessment completed: patient states she does not feel safe returning home; social work consulted for shelter placement.",
+        "Photographs of injuries documented per forensic protocol with patient consent; injuries inconsistent with reported mechanism.",
+        "Pattern of injuries concerning for non-accidental trauma: multiple bruises in varying stages of healing on bilateral upper extremities.",
+        "Patient provided with National Domestic Violence Hotline number (1-800-799-7233) and local advocacy resources.",
+        "Mandatory reporting completed per state law given suspected abuse involving a vulnerable adult; Adult Protective Services notified.",
+    ];
+
+    static readonly string[] FillerNarrative =
+    [
+        "The patient's vital signs remained stable throughout the shift with no acute changes noted on continuous monitoring.",
+        "Nursing assessment performed at the bedside; patient is resting comfortably with no complaints of pain or distress.",
+        "Intravenous fluids continued at maintenance rate; intake and output documented and within acceptable parameters.",
+        "Fall risk assessment completed using the Morse Fall Scale; patient scored moderate risk and appropriate precautions implemented.",
+        "Patient education provided regarding the importance of ambulation and incentive spirometry use to prevent postoperative complications.",
+        "Interdisciplinary team rounds completed with input from medicine, nursing, pharmacy, physical therapy, and case management.",
+        "Laboratory specimens collected per physician orders and sent to the lab; results anticipated within standard turnaround time.",
+        "Patient's family visited and was updated on the plan of care by the attending physician during afternoon rounds.",
+        "Respiratory therapy performed scheduled nebulizer treatment; patient tolerated well with improved breath sounds bilaterally.",
+        "Medication reconciliation reviewed with patient and pharmacy; no discrepancies identified between home and inpatient medication lists.",
+        "Wound care performed per protocol with sterile technique; wound bed appears clean and granulating without signs of infection.",
+        "Physical therapy facilitated ambulation in the hallway with rolling walker; patient ambulated 150 feet with minimal assistance.",
+        "Occupational therapy assessed patient's ability to perform activities of daily living; mild difficulty with fine motor tasks noted.",
+        "Dietary tray delivered; patient consumed approximately 75% of meal with good appetite noted by nursing staff.",
+        "Pain management reassessed per scheduled protocol; patient reports pain level of 3/10 with current medication regimen.",
+        "Blood glucose monitoring performed per sliding scale protocol; values within target range and insulin administered as ordered.",
+        "Patient participated in bedside physical therapy exercises including ankle pumps, quad sets, and straight leg raises.",
+        "Chaplain services offered to patient and family; patient declined at this time but is aware services are available.",
+        "Sequential compression devices applied bilaterally for DVT prophylaxis; patient instructed to keep devices on while in bed.",
+        "Foley catheter care performed; output adequate and within expected range; plan to discontinue catheter per protocol tomorrow.",
+    ];
+
+    // ── Commingled stress test generator ─────────────────────────────────────
+
+    static void MakeCommingledStressTest(string filepath, int pagesPerPatient, int patientCount)
+    {
+        // Each patient record is designed to fill ~pagesPerPatient pages.
+        // Sensitive content is placed at the END of each patient's block so it
+        // naturally falls across a page boundary and bleeds into the next patient.
+        // This means if you're chunking at pagesPerPatient pages, the chunk
+        // boundary will land right in the middle of sensitive data or at the
+        // transition between two patients.
+
+        // Approximate lines per page at 10pt with spacing: ~45 content items
+        var itemsPerPage = 45;
+        var targetItems = pagesPerPatient * itemsPerPage;
+
+        // Sensitive content takes about 20-25 items
+        var sensitiveItems = 22;
+        var fillerNeeded = targetItems - sensitiveItems - 15; // 15 for header/demographics
+
+        var facilityName = Fake.Company.CompanyName() + " Regional Medical Center";
+        var facilityAddr = EastCoastAddress();
+
+        Document.Create(container =>
+        {
+            container.Page(page =>
+            {
+                page.Size(PageSizes.Letter);
+                page.MarginHorizontal(40);
+                page.MarginVertical(30);
+                page.DefaultTextStyle(x => x.FontSize(10));
+
+                page.Content().Column(col =>
+                {
+                    // Document header
+                    col.Item().AlignCenter().Text(facilityName).Bold().FontSize(14);
+                    col.Item().AlignCenter().Text(facilityAddr).FontSize(9);
+                    col.Item().AlignCenter().Text("CONSOLIDATED PATIENT RECORDS — CONFIDENTIAL").Bold().FontSize(11);
+                    col.Item().PaddingVertical(4).LineHorizontal(1);
+                    col.Item().PaddingTop(3);
+                    col.Item().Text($"Report Generated: {DateTime.Now:MM/dd/yyyy hh:mm tt}").FontSize(9);
+                    col.Item().Text($"Boundary Interval: {pagesPerPatient} page(s) per patient block").FontSize(9).Italic();
+                    col.Item().PaddingTop(5);
+
+                    for (int p = 0; p < patientCount; p++)
+                    {
+                        var patient = GeneratePatientInfo();
+                        var vitals = GenerateVitals();
+                        var doctor = Fake.Name.FullName();
+                        var admitDate = Fake.Date.Past(0, DateTime.Now.AddDays(-2));
+                        var dischargeDate = admitDate.AddDays(Rng.Next(2, 12));
+                        var diagnoses = Fake.PickRandom(Diagnoses, Rng.Next(3, 6)).ToList();
+                        var meds = Fake.PickRandom(Medications, Rng.Next(4, 8)).ToList();
+
+                        // ── Patient header & demographics ──
+                        col.Item().PaddingTop(3).LineHorizontal(2);
+                        col.Item().PaddingTop(3);
+                        col.Item().Text($"PATIENT {p + 1} OF {patientCount}").Bold().FontSize(12);
+                        col.Item().PaddingTop(3);
+                        col.Item().Row(r => { r.RelativeItem().Text($"Name: {patient["name"]}").Bold(); r.RelativeItem().Text($"MRN: {patient["mrn"]}"); });
+                        col.Item().Row(r => { r.RelativeItem().Text($"DOB: {patient["dob"]}"); r.RelativeItem().Text($"SSN: {patient["ssn"]}"); });
+                        col.Item().Row(r => { r.RelativeItem().Text($"Address: {patient["address"]}"); r.RelativeItem().Text($"Phone: {patient["phone"]}"); });
+                        col.Item().Row(r => { r.RelativeItem().Text($"Insurance: {patient["insurance_id"]}"); r.RelativeItem().Text($"Attending: Dr. {doctor}"); });
+                        col.Item().Row(r => { r.RelativeItem().Text($"Admitted: {admitDate:MM/dd/yyyy}"); r.RelativeItem().Text($"Discharged: {dischargeDate:MM/dd/yyyy}"); });
+                        col.Item().PaddingTop(3);
+
+                        // Vitals
+                        col.Item().Text("VITALS").Bold();
+                        col.Item().Text($"BP: {vitals["blood_pressure"]}  HR: {vitals["heart_rate"]}  Temp: {vitals["temperature"]}  SpO2: {vitals["oxygen_saturation"]}  RR: {vitals["respiratory_rate"]}");
+                        col.Item().PaddingTop(3);
+
+                        // Diagnoses
+                        col.Item().Text("DIAGNOSES").Bold();
+                        foreach (var dx in diagnoses)
+                            col.Item().Text($"  • {dx}");
+                        col.Item().PaddingTop(3);
+
+                        // Medications
+                        col.Item().Text("MEDICATIONS").Bold();
+                        foreach (var med in meds)
+                            col.Item().Text($"  • {med.Name} {med.Dose} — {med.Freq}");
+                        col.Item().PaddingTop(3);
+
+                        // ── Filler: hospital course narrative to push toward page boundary ──
+                        col.Item().Text("HOSPITAL COURSE").Bold();
+                        var fillerLines = Math.Max(fillerNeeded, 5);
+                        var fillerText = new List<string>();
+                        while (fillerText.Count < fillerLines)
+                            fillerText.AddRange(Fake.PickRandom(FillerNarrative, Math.Min(8, fillerLines - fillerText.Count)));
+                        foreach (var line in fillerText.Take(fillerLines))
+                            col.Item().Text(line);
+                        col.Item().PaddingTop(3);
+
+                        // ── SENSITIVE CONTENT — deliberately at page boundary ──
+                        // This section is designed to be split across the page break
+                        // so that when chunking at pagesPerPatient, the chunk boundary
+                        // falls in the middle of this sensitive data.
+
+                        var sensitiveType = p % 5;
+                        switch (sensitiveType)
+                        {
+                            case 0: // Substance abuse
+                                col.Item().Text("SUBSTANCE ABUSE & ADDICTION ASSESSMENT").Bold();
+                                col.Item().Text($"Patient: {patient["name"]}  SSN: {patient["ssn"]}  MRN: {patient["mrn"]}");
+                                foreach (var note in Fake.PickRandom(SubstanceAbuseNotes, Rng.Next(4, 7)))
+                                    col.Item().Text(note);
+                                col.Item().Text($"Assessed by: Dr. {Fake.Name.FullName()}, Addiction Medicine");
+                                col.Item().Text("42 CFR Part 2 protected information — unauthorized disclosure prohibited.");
+                                break;
+
+                            case 1: // Mental health
+                                col.Item().Text("PSYCHIATRIC EVALUATION & MENTAL HEALTH NOTES").Bold();
+                                col.Item().Text($"Patient: {patient["name"]}  DOB: {patient["dob"]}  SSN: {patient["ssn"]}");
+                                foreach (var note in Fake.PickRandom(MentalHealthNotes, Rng.Next(4, 7)))
+                                    col.Item().Text(note);
+                                col.Item().Text($"Evaluating Psychiatrist: Dr. {Fake.Name.FullName()}, MD, Board Certified Psychiatry");
+                                col.Item().Text("Protected mental health information per state and federal law.");
+                                break;
+
+                            case 2: // HIV/STI
+                                col.Item().Text("HIV/STI SCREENING & TREATMENT NOTES").Bold();
+                                col.Item().Text($"Patient: {patient["name"]}  MRN: {patient["mrn"]}  Insurance: {patient["insurance_id"]}");
+                                foreach (var note in Fake.PickRandom(HivStiNotes, Rng.Next(4, 6)))
+                                    col.Item().Text(note);
+                                col.Item().Text($"Infectious Disease Consult: Dr. {Fake.Name.FullName()}");
+                                col.Item().Text("HIV-related information protected under state confidentiality statutes.");
+                                break;
+
+                            case 3: // Genetic testing
+                                col.Item().Text("GENETIC TESTING RESULTS & COUNSELING NOTES").Bold();
+                                col.Item().Text($"Patient: {patient["name"]}  DOB: {patient["dob"]}  SSN: {patient["ssn"]}");
+                                foreach (var note in Fake.PickRandom(GeneticTestingNotes, Rng.Next(3, 6)))
+                                    col.Item().Text(note);
+                                col.Item().Text($"Genetic Counselor: {Fake.Name.FullName()}, MS, CGC");
+                                col.Item().Text("GINA-protected genetic information — disclosure restrictions apply.");
+                                break;
+
+                            case 4: // Domestic violence
+                                col.Item().Text("DOMESTIC VIOLENCE / INTIMATE PARTNER VIOLENCE SCREENING").Bold();
+                                col.Item().Text($"Patient: {patient["name"]}  Address: {patient["address"]}  Phone: {patient["phone"]}");
+                                foreach (var note in Fake.PickRandom(DomesticViolenceNotes, Rng.Next(3, 5)))
+                                    col.Item().Text(note);
+                                col.Item().Text($"Screened by: {Fake.Name.FullName()}, LCSW");
+                                col.Item().Text("Sensitive domestic violence documentation — restricted access per hospital policy.");
+                                break;
+                        }
+
+                        col.Item().PaddingTop(2);
+                        col.Item().Text($"— End of record for {patient["name"]} (MRN: {patient["mrn"]}) —").Italic().FontSize(9);
+                        // NO page break — next patient starts immediately to create commingling
+                        col.Item().PaddingTop(3);
+                    }
+
+                    col.Item().PaddingTop(10).LineHorizontal(2);
+                    col.Item().PaddingTop(3);
+                    col.Item().Text("END OF CONSOLIDATED PATIENT RECORDS").Bold().AlignCenter();
+                    col.Item().Text($"Total patients: {patientCount}  |  Generated: {DateTime.Now:MM/dd/yyyy}").AlignCenter().FontSize(9);
                 });
             });
         }).GeneratePdf(filepath);
